@@ -1,0 +1,50 @@
+[
+  {
+    "id": "app-0000-0000-0000-000000000001",
+    "request_id": "r0000000-0000-0000-0000-000000000064",
+    "requestNumber": "REQ-1064",
+    "requestTitle": "On-Duty (OD) Leave Approval: National Smart Automation Hackathon (4 Days)",
+    "departmentName": "Academics",
+    "studentName": "Aarav Mehta (CS-3rd Year)",
+    "reasonDetails": "Selected as national finalist for Smart Automation Challenge. Requires attendance regularization for 4 lecture days.",
+    "aiPreScreen": "AI Pre-Screen: PASS (Attendance 89% > 75% required, No pending disciplinary flags)",
+    "approver_id": "u0000000-0000-0000-0000-000000000004",
+    "approver_role": "faculty_advisor",
+    "approverRole": "faculty_advisor",
+    "approverName": "Prof. Rajesh Nair",
+    "status": "pending",
+    "created_at": "2026-09-30T07:06:47.397Z"
+  },
+  {
+    "id": "app-0000-0000-0000-000000000002",
+    "request_id": "r0000000-0000-0000-0000-000000000071",
+    "requestNumber": "REQ-1071",
+    "requestTitle": "Main Auditorium & AV System Reservation for Annual Tech Showcase",
+    "departmentName": "Student Affairs",
+    "studentName": "Ananya Sen (Student Council President)",
+    "reasonDetails": "Booking main auditorium, 4 wireless mics, and high-lumen projector for Saturday university tech fest.",
+    "aiPreScreen": "AI Pre-Screen: PASS (Auditorium calendar slot vacant, AV technician scheduled)",
+    "approver_id": "u0000000-0000-0000-0000-000000000002",
+    "approver_role": "department_head",
+    "approverRole": "department_head",
+    "approverName": "Dr. Sunita Rao",
+    "status": "pending",
+    "created_at": "2026-09-30T04:06:47.397Z"
+  },
+  {
+    "id": "app-0000-0000-0000-000000000003",
+    "request_id": "r0000000-0000-0000-0000-000000000078",
+    "requestNumber": "REQ-1078",
+    "requestTitle": "Elective Course Substitution & Lab Timetable Regularization",
+    "departmentName": "Academics",
+    "studentName": "Rohan Deshmukh (IT-4th Year)",
+    "reasonDetails": "Timetable conflict between Advanced Distributed Systems and Honors AI Lab. Dean clearance requested.",
+    "aiPreScreen": "AI Pre-Screen: PASS (Credit requirements satisfied, faculty capacity available)",
+    "approver_id": "u0000000-0000-0000-0000-000000000004",
+    "approver_role": "faculty_advisor",
+    "approverRole": "faculty_advisor",
+    "approverName": "Prof. Rajesh Nair",
+    "status": "pending",
+    "created_at": "2026-09-30T01:06:47.397Z"
+  }
+]

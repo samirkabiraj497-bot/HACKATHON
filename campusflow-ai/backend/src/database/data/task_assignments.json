@@ -1,5 +1,69 @@
 [
   {
+    "id": "3a35e1b2-97b5-4d93-8f4c-702ee62eb1ce",
+    "created_at": "2026-09-30T09:09:11.095Z",
+    "updated_at": "2026-09-30T09:09:11.095Z",
+    "task_id": "5d29b9e1-4607-4725-94da-785c03c55ba6",
+    "employee_id": "e0000000-0000-0000-0000-000000000001",
+    "assigned_by": "CAMPUSFLOW_AI_AGENT",
+    "match_score": 88,
+    "criteria_breakdown": {
+      "skillScore": 96,
+      "workloadScore": 58,
+      "availabilityScore": 100,
+      "ratingScore": 98.00000000000001,
+      "proximityScore": 100
+    }
+  },
+  {
+    "id": "bb3117a8-74a5-4020-a26c-5788b44c7832",
+    "created_at": "2026-09-30T09:03:24.943Z",
+    "updated_at": "2026-09-30T09:03:24.943Z",
+    "task_id": "1c6a7b7e-891a-48e1-8b56-f20c6fb9c096",
+    "employee_id": "e0000000-0000-0000-0000-000000000001",
+    "assigned_by": "CAMPUSFLOW_AI_AGENT",
+    "match_score": 88,
+    "criteria_breakdown": {
+      "skillScore": 96,
+      "workloadScore": 58,
+      "availabilityScore": 100,
+      "ratingScore": 98.00000000000001,
+      "proximityScore": 100
+    }
+  },
+  {
+    "id": "45f1e00c-c6e9-4d9a-9e7e-d73c4a9245c5",
+    "created_at": "2026-09-30T09:02:38.274Z",
+    "updated_at": "2026-09-30T09:02:38.274Z",
+    "task_id": "d9d07523-8127-436c-a338-9d50d284b218",
+    "employee_id": "e0000000-0000-0000-0000-000000000001",
+    "assigned_by": "CAMPUSFLOW_AI_AGENT",
+    "match_score": 88,
+    "criteria_breakdown": {
+      "skillScore": 96,
+      "workloadScore": 58,
+      "availabilityScore": 100,
+      "ratingScore": 98.00000000000001,
+      "proximityScore": 100
+    }
+  },
+  {
+    "id": "285e9d45-b95d-4749-b7b2-4fb3819f05d9",
+    "created_at": "2026-09-30T08:30:21.770Z",
+    "updated_at": "2026-09-30T08:30:21.770Z",
+    "task_id": "8b254712-4798-45f6-be62-10d93ecdca5f",
+    "employee_id": "e0000000-0000-0000-0000-000000000001",
+    "assigned_by": "CAMPUSFLOW_AI_AGENT",
+    "match_score": 88,
+    "criteria_breakdown": {
+      "skillScore": 96,
+      "workloadScore": 58,
+      "availabilityScore": 100,
+      "ratingScore": 98.00000000000001,
+      "proximityScore": 100
+    }
+  },
+  {
     "id": "0fadd013-dea9-47f0-99d4-d046eeb28900",
     "created_at": "2026-09-30T08:01:37.688Z",
     "updated_at": "2026-09-30T08:01:37.688Z",

@@ -2,7 +2,7 @@
   {
     "id": "u0000000-0000-0000-0000-000000000001",
     "email": "admin@campusflow.ai",
-    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "password_hash": "$2a$10$yM9NxyAms8DOnoW.hBCR/OhKilPSZDmLJDLEyOhs2RZLmTsdw9pz2",
     "full_name": "Dr. Vikram Patel",
     "role": "admin",
     "phone": "+91 98765 00001",
@@ -12,7 +12,7 @@
   {
     "id": "u0000000-0000-0000-0000-000000000002",
     "email": "hod.it@campusflow.ai",
-    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "password_hash": "$2a$10$yM9NxyAms8DOnoW.hBCR/OhKilPSZDmLJDLEyOhs2RZLmTsdw9pz2",
     "full_name": "Dr. Sunita Rao",
     "role": "department_head",
     "department_id": "d0000000-0000-0000-0000-000000000001",
@@ -23,7 +23,7 @@
   {
     "id": "u0000000-0000-0000-0000-000000000003",
     "email": "hod.maint@campusflow.ai",
-    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "password_hash": "$2a$10$yM9NxyAms8DOnoW.hBCR/OhKilPSZDmLJDLEyOhs2RZLmTsdw9pz2",
     "full_name": "Er. Rajesh Kulkarni",
     "role": "department_head",
     "department_id": "d0000000-0000-0000-0000-000000000002",
@@ -34,7 +34,7 @@
   {
     "id": "u0000000-0000-0000-0000-000000000004",
     "email": "faculty@campusflow.ai",
-    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "password_hash": "$2a$10$yM9NxyAms8DOnoW.hBCR/OhKilPSZDmLJDLEyOhs2RZLmTsdw9pz2",
     "full_name": "Prof. Rajesh Nair",
     "role": "faculty",
     "department_id": "d0000000-0000-0000-0000-000000000004",
@@ -45,7 +45,7 @@
   {
     "id": "u0000000-0000-0000-0000-000000000010",
     "email": "rahul.it@campusflow.ai",
-    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "password_hash": "$2a$10$yM9NxyAms8DOnoW.hBCR/OhKilPSZDmLJDLEyOhs2RZLmTsdw9pz2",
     "full_name": "Rahul Sharma",
     "role": "staff",
     "department_id": "d0000000-0000-0000-0000-000000000001",
@@ -56,7 +56,7 @@
   {
     "id": "u0000000-0000-0000-0000-000000000011",
     "email": "amit.network@campusflow.ai",
-    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "password_hash": "$2a$10$yM9NxyAms8DOnoW.hBCR/OhKilPSZDmLJDLEyOhs2RZLmTsdw9pz2",
     "full_name": "Amit Verma",
     "role": "staff",
     "department_id": "d0000000-0000-0000-0000-000000000001",
@@ -67,7 +67,7 @@
   {
     "id": "u0000000-0000-0000-0000-000000000012",
     "email": "priya.hvac@campusflow.ai",
-    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "password_hash": "$2a$10$yM9NxyAms8DOnoW.hBCR/OhKilPSZDmLJDLEyOhs2RZLmTsdw9pz2",
     "full_name": "Priya Singh",
     "role": "staff",
     "department_id": "d0000000-0000-0000-0000-000000000002",
@@ -78,7 +78,7 @@
   {
     "id": "u0000000-0000-0000-0000-000000000013",
     "email": "manoj.electric@campusflow.ai",
-    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "password_hash": "$2a$10$yM9NxyAms8DOnoW.hBCR/OhKilPSZDmLJDLEyOhs2RZLmTsdw9pz2",
     "full_name": "Manoj Kumar",
     "role": "staff",
     "department_id": "d0000000-0000-0000-0000-000000000002",
@@ -89,7 +89,7 @@
   {
     "id": "u0000000-0000-0000-0000-000000000014",
     "email": "dinesh.plumber@campusflow.ai",
-    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "password_hash": "$2a$10$yM9NxyAms8DOnoW.hBCR/OhKilPSZDmLJDLEyOhs2RZLmTsdw9pz2",
     "full_name": "Dinesh Yadav",
     "role": "staff",
     "department_id": "d0000000-0000-0000-0000-000000000002",
@@ -100,7 +100,7 @@
   {
     "id": "u0000000-0000-0000-0000-000000000015",
     "email": "suresh.hostel@campusflow.ai",
-    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "password_hash": "$2a$10$yM9NxyAms8DOnoW.hBCR/OhKilPSZDmLJDLEyOhs2RZLmTsdw9pz2",
     "full_name": "Suresh Menon",
     "role": "staff",
     "department_id": "d0000000-0000-0000-0000-000000000003",
@@ -111,7 +111,7 @@
   {
     "id": "u0000000-0000-0000-0000-000000000016",
     "email": "kavita.acad@campusflow.ai",
-    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "password_hash": "$2a$10$yM9NxyAms8DOnoW.hBCR/OhKilPSZDmLJDLEyOhs2RZLmTsdw9pz2",
     "full_name": "Kavita Joshi",
     "role": "staff",
     "department_id": "d0000000-0000-0000-0000-000000000004",
@@ -122,7 +122,7 @@
   {
     "id": "u0000000-0000-0000-0000-000000000017",
     "email": "anil.admin@campusflow.ai",
-    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "password_hash": "$2a$10$yM9NxyAms8DOnoW.hBCR/OhKilPSZDmLJDLEyOhs2RZLmTsdw9pz2",
     "full_name": "Anil Saxena",
     "role": "staff",
     "department_id": "d0000000-0000-0000-0000-000000000005",
@@ -133,7 +133,7 @@
   {
     "id": "u0000000-0000-0000-0000-000000000018",
     "email": "neha.lib@campusflow.ai",
-    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "password_hash": "$2a$10$yM9NxyAms8DOnoW.hBCR/OhKilPSZDmLJDLEyOhs2RZLmTsdw9pz2",
     "full_name": "Neha Roy",
     "role": "staff",
     "department_id": "d0000000-0000-0000-0000-000000000007",
@@ -144,7 +144,7 @@
   {
     "id": "u0000000-0000-0000-0000-000000000019",
     "email": "harish.sec@campusflow.ai",
-    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "password_hash": "$2a$10$yM9NxyAms8DOnoW.hBCR/OhKilPSZDmLJDLEyOhs2RZLmTsdw9pz2",
     "full_name": "Harish Chandra",
     "role": "staff",
     "department_id": "d0000000-0000-0000-0000-000000000009",
@@ -155,7 +155,7 @@
   {
     "id": "u0000000-0000-0000-0000-000000000020",
     "email": "student@campusflow.ai",
-    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "password_hash": "$2a$10$yM9NxyAms8DOnoW.hBCR/OhKilPSZDmLJDLEyOhs2RZLmTsdw9pz2",
     "full_name": "Aarav Mehta",
     "role": "student",
     "phone": "+91 98765 20001",
@@ -165,7 +165,7 @@
   {
     "id": "u0000000-0000-0000-0000-000000000021",
     "email": "ananya.sen@campusflow.ai",
-    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "password_hash": "$2a$10$yM9NxyAms8DOnoW.hBCR/OhKilPSZDmLJDLEyOhs2RZLmTsdw9pz2",
     "full_name": "Ananya Sen",
     "role": "student",
     "phone": "+91 98765 20002",
@@ -175,7 +175,7 @@
   {
     "id": "u0000000-0000-0000-0000-000000000022",
     "email": "rohan.deshmukh@campusflow.ai",
-    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "password_hash": "$2a$10$yM9NxyAms8DOnoW.hBCR/OhKilPSZDmLJDLEyOhs2RZLmTsdw9pz2",
     "full_name": "Rohan Deshmukh",
     "role": "student",
     "phone": "+91 98765 20003",

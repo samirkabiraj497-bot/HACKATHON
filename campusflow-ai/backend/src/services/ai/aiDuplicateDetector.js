@@ -11,7 +11,7 @@ function tokenize(text) {
     .toLowerCase()
     .replace(/[^a-z0-9\s]/g, ' ')
     .split(/\s+/)
-    .filter(t => t.length > 2);
+    .filter(t => t.length >= 2);
 }
 
 function calculateSimilarity(textA, textB) {
@@ -32,6 +32,7 @@ async function findDuplicateIncidents({ title, description, location, categoryId
   const candidates = [];
 
   const targetLocation = (location || '').toLowerCase().trim();
+  const targetText = `${title || ''} ${description || ''}`.toLowerCase();
 
   for (const req of allRequests) {
     if (req.id === currentRequestId) continue;
@@ -41,23 +42,28 @@ async function findDuplicateIncidents({ title, description, location, categoryId
     let locationMatch = false;
 
     if (targetLocation && reqLoc) {
-      if (targetLocation.includes(reqLoc) || reqLoc.includes(targetLocation)) {
+      if (targetLocation.includes(reqLoc) || reqLoc.includes(targetLocation) || targetLocation.replace(/\s+/g, '') === reqLoc.replace(/\s+/g, '')) {
         locationMatch = true;
       }
     }
 
     const similarity = calculateSimilarity(
-      `${title} ${description}`,
-      `${req.title} ${req.description}`
+      targetText,
+      `${req.title || ''} ${req.description || ''}`
     );
 
-    // If both mention same location and have high text overlap or equipment match
+    // Asset keywords
+    const keywords = ['ac', 'hvac', 'leak', 'water', 'cooling', 'projector', 'wifi', 'wi-fi', 'lamp', 'power'];
+    const hasCommonKeyword = keywords.some(k => targetText.includes(k) && (`${req.title || ''} ${req.description || ''}`.toLowerCase()).includes(k));
+
     let matchConfidence = similarity;
-    if (locationMatch) {
+    if (locationMatch && hasCommonKeyword) {
+      matchConfidence = Math.max(0.78, similarity + 0.50);
+    } else if (locationMatch) {
       matchConfidence = Math.min(0.98, similarity + 0.35);
     }
 
-    if (matchConfidence >= 0.55 || (locationMatch && similarity >= 0.25)) {
+    if (matchConfidence >= 0.50 || (locationMatch && similarity >= 0.15)) {
       candidates.push({
         request: req,
         similarity: parseFloat(matchConfidence.toFixed(2)),

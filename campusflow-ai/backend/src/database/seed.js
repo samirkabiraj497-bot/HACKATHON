@@ -470,7 +470,60 @@ async function seedDatabase() {
   ];
   await db.notifications.setAll(notifs);
 
-  // 10. Audit Logs
+  // 10. Approvals (Multi-Tier OD Pass, Auditorium, Course Substitution)
+  const defaultApprovals = [
+    {
+      id: 'app-0000-0000-0000-000000000001',
+      request_id: 'r0000000-0000-0000-0000-000000000064',
+      requestNumber: 'REQ-1064',
+      requestTitle: 'On-Duty (OD) Leave Approval: National Smart Automation Hackathon (4 Days)',
+      departmentName: 'Academics',
+      studentName: 'Aarav Mehta (CS-3rd Year)',
+      reasonDetails: 'Selected as national finalist for Smart Automation Challenge. Requires attendance regularization for 4 lecture days.',
+      aiPreScreen: 'AI Pre-Screen: PASS (Attendance 89% > 75% required, No pending disciplinary flags)',
+      approver_id: users[3].id, // Prof. Rajesh Nair
+      approver_role: 'faculty_advisor',
+      approverRole: 'faculty_advisor',
+      approverName: users[3].full_name,
+      status: 'pending',
+      created_at: new Date(Date.now() - 3600 * 1000 * 2).toISOString()
+    },
+    {
+      id: 'app-0000-0000-0000-000000000002',
+      request_id: 'r0000000-0000-0000-0000-000000000071',
+      requestNumber: 'REQ-1071',
+      requestTitle: 'Main Auditorium & AV System Reservation for Annual Tech Showcase',
+      departmentName: 'Student Affairs',
+      studentName: 'Ananya Sen (Student Council President)',
+      reasonDetails: 'Booking main auditorium, 4 wireless mics, and high-lumen projector for Saturday university tech fest.',
+      aiPreScreen: 'AI Pre-Screen: PASS (Auditorium calendar slot vacant, AV technician scheduled)',
+      approver_id: users[1].id, // Dr. Sunita Rao
+      approver_role: 'department_head',
+      approverRole: 'department_head',
+      approverName: users[1].full_name,
+      status: 'pending',
+      created_at: new Date(Date.now() - 3600 * 1000 * 5).toISOString()
+    },
+    {
+      id: 'app-0000-0000-0000-000000000003',
+      request_id: 'r0000000-0000-0000-0000-000000000078',
+      requestNumber: 'REQ-1078',
+      requestTitle: 'Elective Course Substitution & Lab Timetable Regularization',
+      departmentName: 'Academics',
+      studentName: 'Rohan Deshmukh (IT-4th Year)',
+      reasonDetails: 'Timetable conflict between Advanced Distributed Systems and Honors AI Lab. Dean clearance requested.',
+      aiPreScreen: 'AI Pre-Screen: PASS (Credit requirements satisfied, faculty capacity available)',
+      approver_id: users[3].id, // Prof. Rajesh Nair
+      approver_role: 'faculty_advisor',
+      approverRole: 'faculty_advisor',
+      approverName: users[3].full_name,
+      status: 'pending',
+      created_at: new Date(Date.now() - 3600 * 1000 * 8).toISOString()
+    }
+  ];
+  await db.approvals.setAll(defaultApprovals);
+
+  // 11. Audit Logs
   const auditLogs = [
     {
       id: 'a0000000-0000-0000-0000-000000000001',

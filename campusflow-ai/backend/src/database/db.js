@@ -47,6 +47,7 @@ class DBTable {
   }
 
   async find(filter = {}) {
+    const localRecords = loadLocalTable(this.tableName);
     try {
       let query = supabase.from(this.tableName).select('*');
       for (const [key, value] of Object.entries(filter)) {
@@ -55,7 +56,11 @@ class DBTable {
         }
       }
       const { data, error } = await query;
-      if (!error && data && data.length > 0) {
+      if (!error && data && data.length >= localRecords.length && data.length > 0) {
+        saveLocalTable(this.tableName, data);
+        return data;
+      }
+      if (!error && data && data.length > 0 && localRecords.length === 0) {
         saveLocalTable(this.tableName, data);
         return data;
       }
@@ -64,8 +69,7 @@ class DBTable {
     }
 
     // Local fallback filter
-    const records = loadLocalTable(this.tableName);
-    return records.filter((item) => {
+    return localRecords.filter((item) => {
       for (const [key, val] of Object.entries(filter)) {
         if (val !== undefined && val !== null && item[key] !== val) {
           return false;

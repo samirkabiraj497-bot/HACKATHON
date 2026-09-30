@@ -1,39 +1,15 @@
 [
   {
-    "id": "25dad09f-9742-4194-bf8e-a65bb6d1acdd",
-    "created_at": "2026-09-30T08:01:37.507Z",
-    "updated_at": "2026-09-30T08:01:37.507Z",
-    "request_id": "55a40f8c-c9d3-4bcb-80db-3c31c93e4ec3",
-    "title": "Resolution for REQ-1099: The projector in classroom B204 isn't working and we have an",
+    "id": "5d29b9e1-4607-4725-94da-785c03c55ba6",
+    "created_at": "2026-09-30T09:09:10.874Z",
+    "updated_at": "2026-09-30T09:09:10.874Z",
+    "request_id": "dd7e3452-c478-4ecc-84bc-0174c10e051d",
+    "title": "Resolution for REQ-1046: The projector in classroom B204 isn't working and we have an",
     "description": "Ceiling projector red lamp blinking error.",
     "assigned_to": "e0000000-0000-0000-0000-000000000001",
     "status": "PENDING",
     "priority": "CRITICAL",
-    "sla_deadline": "2026-09-30T10:01:35.685Z"
-  },
-  {
-    "id": "6ab3e4ee-dc4a-42b6-934d-8029310fbb02",
-    "created_at": "2026-09-30T07:39:33.027Z",
-    "updated_at": "2026-09-30T07:39:33.027Z",
-    "request_id": "a7fb1f9d-c25b-431f-80a5-f7f3232c87c3",
-    "title": "Resolution for REQ-1096: The projector in classroom B204 isn't working and we have an",
-    "description": "Ceiling projector red lamp blinking error.",
-    "assigned_to": "e0000000-0000-0000-0000-000000000001",
-    "status": "PENDING",
-    "priority": "CRITICAL",
-    "sla_deadline": "2026-09-30T09:39:31.303Z"
-  },
-  {
-    "id": "27310f9c-0813-4b2b-a922-e5defb3c0d16",
-    "created_at": "2026-09-30T07:19:20.708Z",
-    "updated_at": "2026-09-30T07:19:20.708Z",
-    "request_id": "3f4efdc8-b22a-40b9-a00c-a7079963ee5b",
-    "title": "Resolution for REQ-1092: The projector in classroom B204 isn't working and we have an",
-    "description": "Ceiling projector red lamp blinking error.",
-    "assigned_to": "e0000000-0000-0000-0000-000000000001",
-    "status": "PENDING",
-    "priority": "CRITICAL",
-    "sla_deadline": "2026-09-30T09:19:16.821Z"
+    "sla_deadline": "2026-09-30T11:09:09.110Z"
   },
   {
     "id": "t0000000-0000-0000-0000-000000000001",
@@ -43,8 +19,8 @@
     "assigned_to": "e0000000-0000-0000-0000-000000000001",
     "status": "IN_PROGRESS",
     "priority": "HIGH",
-    "sla_deadline": "2026-09-30T12:45:06.310Z",
-    "created_at": "2026-09-30T06:10:06.310Z"
+    "sla_deadline": "2026-09-30T15:06:46.160Z",
+    "created_at": "2026-09-30T08:31:46.160Z"
   },
   {
     "id": "t0000000-0000-0000-0000-000000000002",
@@ -54,7 +30,7 @@
     "assigned_to": "e0000000-0000-0000-0000-000000000003",
     "status": "IN_PROGRESS",
     "priority": "CRITICAL",
-    "sla_deadline": "2026-09-30T08:15:06.811Z",
-    "created_at": "2026-09-30T04:45:06.811Z"
+    "sla_deadline": "2026-09-30T10:36:46.334Z",
+    "created_at": "2026-09-30T07:06:46.334Z"
   }
 ]

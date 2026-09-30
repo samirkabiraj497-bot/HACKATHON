@@ -52,6 +52,7 @@ router.post('/workflows/:id/run', workflowController.runWorkflow);
 
 // Approvals
 router.get('/approvals', approvalController.getApprovals);
+router.post('/approvals/reset', approvalController.resetApprovals);
 router.post('/approvals/:id/approve', approvalController.approveRequest);
 router.post('/approvals/:id/reject', approvalController.rejectRequest);
 
