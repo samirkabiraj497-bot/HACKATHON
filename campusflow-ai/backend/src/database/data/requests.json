@@ -1,5 +1,95 @@
 [
   {
+    "id": "c62336cb-1f2c-4ef1-87eb-b9af09fcbc19",
+    "created_at": "2026-09-30T08:06:26.423Z",
+    "updated_at": "2026-09-30T08:06:26.423Z",
+    "request_number": "DEMO-1061",
+    "title": "The projector in classroom B204 isn't working and we have an important presentation tomorrow morning.",
+    "description": "The ceiling projector will not power on and is blinking red lamp error. Our final capstone presentation is tomorrow at 9:00 AM.",
+    "category_name": "IT & Digital Infrastructure",
+    "subcategory": "Audio/Visual",
+    "department_name": "IT Support",
+    "department_id": "d0000000-0000-0000-0000-000000000001",
+    "priority": "CRITICAL",
+    "status": "ASSIGNED",
+    "assigned_to": "e0000000-0000-0000-0000-000000000001",
+    "location": "Classroom B204",
+    "ai_confidence": 0.94,
+    "ai_summary": "Classified as CRITICAL under IT Support. Assigned to Rahul Sharma (AV Specialist).",
+    "sla_deadline": "2026-09-30T16:06:26.422Z",
+    "sla_status": "on_track"
+  },
+  {
+    "id": "219a6eaa-317c-4879-a71c-72172f02d0ec",
+    "created_at": "2026-09-30T08:01:43.254Z",
+    "updated_at": "2026-09-30T08:01:43.254Z",
+    "request_number": "DEMO-1060",
+    "title": "The projector in classroom B204 isn't working and we have an important presentation tomorrow morning.",
+    "description": "The ceiling projector will not power on and is blinking red lamp error. Our final capstone presentation is tomorrow at 9:00 AM.",
+    "category_name": "IT & Digital Infrastructure",
+    "subcategory": "Audio/Visual",
+    "department_name": "IT Support",
+    "department_id": "d0000000-0000-0000-0000-000000000001",
+    "priority": "CRITICAL",
+    "status": "ASSIGNED",
+    "assigned_to": "e0000000-0000-0000-0000-000000000001",
+    "location": "Classroom B204",
+    "ai_confidence": 0.94,
+    "ai_summary": "Classified as CRITICAL under IT Support. Assigned to Rahul Sharma (AV Specialist).",
+    "sla_deadline": "2026-09-30T16:01:43.254Z",
+    "sla_status": "on_track"
+  },
+  {
+    "id": "55a40f8c-c9d3-4bcb-80db-3c31c93e4ec3",
+    "created_at": "2026-09-30T08:01:36.997Z",
+    "updated_at": "2026-09-30T08:01:36.997Z",
+    "request_number": "REQ-1099",
+    "title": "The projector in classroom B204 isn't working and we have an important presentation tomorrow morning",
+    "description": "Ceiling projector red lamp blinking error.",
+    "raw_description": "Ceiling projector red lamp blinking error.",
+    "category_name": "IT & Digital Infrastructure",
+    "subcategory": "Audio/Visual",
+    "department_id": "d0000000-0000-0000-0000-000000000001",
+    "department_name": "IT Support",
+    "priority": "CRITICAL",
+    "status": "ASSIGNED",
+    "submitted_by": "u0000000-0000-0000-0000-000000000020",
+    "assigned_to": "e0000000-0000-0000-0000-000000000001",
+    "location": "Classroom B204",
+    "deadline": null,
+    "sla_deadline": "2026-09-30T10:01:35.685Z",
+    "sla_status": "on_track",
+    "ai_confidence": 0.94,
+    "ai_summary": "Audio/Visual issue detected at Classroom B204. Marked HIGH because the issue directly affects an upcoming deadline (presentation tomorrow).",
+    "entities": {
+      "location": "classroom B204",
+      "deadline": "presentation tomorrow",
+      "equipment": "projector"
+    },
+    "is_duplicate": true,
+    "master_incident_id": "deb4ece4-d762-4ee7-8129-49d608303823"
+  },
+  {
+    "id": "deb4ece4-d762-4ee7-8129-49d608303823",
+    "created_at": "2026-09-30T07:47:25.935Z",
+    "updated_at": "2026-09-30T07:47:25.935Z",
+    "request_number": "DEMO-1058",
+    "title": "The projector in classroom B204 isn't working and we have an important presentation tomorrow morning.",
+    "description": "The ceiling projector will not power on and is blinking red lamp error. Our final capstone presentation is tomorrow at 9:00 AM.",
+    "category_name": "IT & Digital Infrastructure",
+    "subcategory": "Audio/Visual",
+    "department_name": "IT Support",
+    "department_id": "d0000000-0000-0000-0000-000000000001",
+    "priority": "CRITICAL",
+    "status": "ASSIGNED",
+    "assigned_to": "e0000000-0000-0000-0000-000000000001",
+    "location": "Classroom B204",
+    "ai_confidence": 0.94,
+    "ai_summary": "Classified as CRITICAL under IT Support. Assigned to Rahul Sharma (AV Specialist).",
+    "sla_deadline": "2026-09-30T15:47:25.935Z",
+    "sla_status": "on_track"
+  },
+  {
     "id": "fe2a3f37-6564-4c95-992d-78b5ce06e738",
     "created_at": "2026-09-30T07:39:38.248Z",
     "updated_at": "2026-09-30T07:39:38.248Z",
@@ -240,7 +330,8 @@
     },
     "master_incident_id": "inc0000-0000-0000-0000-000000000001",
     "is_duplicate": true,
-    "created_at": "2026-09-30T04:55:06.811Z"
+    "created_at": "2026-09-30T04:55:06.811Z",
+    "updated_at": "2026-09-30T07:47:40.365Z"
   },
   {
     "id": "r0000000-0000-0000-0000-000000000012",
@@ -267,7 +358,8 @@
     },
     "master_incident_id": "inc0000-0000-0000-0000-000000000001",
     "is_duplicate": true,
-    "created_at": "2026-09-30T05:05:06.811Z"
+    "created_at": "2026-09-30T05:05:06.811Z",
+    "updated_at": "2026-09-30T07:47:41.289Z"
   },
   {
     "id": "r0000000-0000-0000-0000-000000000013",
@@ -294,7 +386,8 @@
     },
     "master_incident_id": "inc0000-0000-0000-0000-000000000001",
     "is_duplicate": true,
-    "created_at": "2026-09-30T05:15:06.811Z"
+    "created_at": "2026-09-30T05:15:06.811Z",
+    "updated_at": "2026-09-30T07:47:42.453Z"
   },
   {
     "id": "r0000000-0000-0000-0000-000000000014",
@@ -321,7 +414,8 @@
     },
     "master_incident_id": "inc0000-0000-0000-0000-000000000001",
     "is_duplicate": true,
-    "created_at": "2026-09-30T05:25:06.811Z"
+    "created_at": "2026-09-30T05:25:06.811Z",
+    "updated_at": "2026-09-30T07:47:43.374Z"
   },
   {
     "id": "r0000000-0000-0000-0000-000000000015",
@@ -348,7 +442,8 @@
     },
     "master_incident_id": "inc0000-0000-0000-0000-000000000001",
     "is_duplicate": true,
-    "created_at": "2026-09-30T05:35:06.811Z"
+    "created_at": "2026-09-30T05:35:06.811Z",
+    "updated_at": "2026-09-30T07:47:43.985Z"
   },
   {
     "id": "r0000000-0000-0000-0000-000000000016",
@@ -375,7 +470,8 @@
     },
     "master_incident_id": "inc0000-0000-0000-0000-000000000001",
     "is_duplicate": true,
-    "created_at": "2026-09-30T05:45:06.811Z"
+    "created_at": "2026-09-30T05:45:06.811Z",
+    "updated_at": "2026-09-30T07:47:44.580Z"
   },
   {
     "id": "r0000000-0000-0000-0000-000000000017",
@@ -402,7 +498,8 @@
     },
     "master_incident_id": "inc0000-0000-0000-0000-000000000001",
     "is_duplicate": true,
-    "created_at": "2026-09-30T05:55:06.811Z"
+    "created_at": "2026-09-30T05:55:06.811Z",
+    "updated_at": "2026-09-30T07:47:45.153Z"
   },
   {
     "id": "r0000000-0000-0000-0000-000000000020",

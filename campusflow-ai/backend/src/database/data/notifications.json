@@ -1,5 +1,106 @@
 [
   {
+    "id": "279a4f9d-09f2-4377-8553-b664fcea7ee8",
+    "created_at": "2026-09-30T08:01:38.081Z",
+    "updated_at": "2026-09-30T08:01:38.081Z",
+    "user_id": "u0000000-0000-0000-0000-000000000020",
+    "title": "✅ Request Received & Autonomous Workflow Active: REQ-1099",
+    "message": "Your request \"The projector in classroom B204 isn't working and we have an important presentation tomorrow morning\" was analyzed and routed to IT Support with CRITICAL priority. SLA target: 2 hours.",
+    "type": "request_created",
+    "reference_id": "55a40f8c-c9d3-4bcb-80db-3c31c93e4ec3",
+    "reference_type": "request",
+    "is_read": false
+  },
+  {
+    "id": "b15e7b30-1daf-4e15-835e-5f6951cd2dee",
+    "created_at": "2026-09-30T08:01:37.890Z",
+    "updated_at": "2026-09-30T08:01:37.890Z",
+    "user_id": "u0000000-0000-0000-0000-000000000010",
+    "title": "🎯 New Task Assigned: REQ-1099",
+    "message": "AI dispatched REQ-1099 (CRITICAL) to you based on 96% skill match. Location: Classroom B204.",
+    "type": "task_assigned",
+    "reference_id": "55a40f8c-c9d3-4bcb-80db-3c31c93e4ec3",
+    "reference_type": "request",
+    "is_read": false
+  },
+  {
+    "id": "b86ab4d7-d365-46cf-b611-79a249d50f3f",
+    "created_at": "2026-09-30T07:47:45.552Z",
+    "updated_at": "2026-09-30T07:47:45.552Z",
+    "user_id": "u0000000-0000-0000-0000-000000000021",
+    "title": "Request Consolidated into Master Incident",
+    "message": "Your request (REQ-1057) regarding \"Heavy water condensation leak from AC Unit 2 in Lab 3.\" has been merged with Master Incident #inc0000- to expedite resolution. You will receive real-time updates as technicians work on the central resolution.",
+    "type": "duplicate_merge",
+    "reference_id": "r0000000-0000-0000-0000-000000000017",
+    "reference_type": "request"
+  },
+  {
+    "id": "a20f8dc2-265d-4e00-9ead-29a01512738d",
+    "created_at": "2026-09-30T07:47:44.951Z",
+    "updated_at": "2026-09-30T07:47:44.951Z",
+    "user_id": "u0000000-0000-0000-0000-000000000020",
+    "title": "Request Consolidated into Master Incident",
+    "message": "Your request (REQ-1056) regarding \"Cannot conduct practical in Lab 3 because AC is shut down.\" has been merged with Master Incident #inc0000- to expedite resolution. You will receive real-time updates as technicians work on the central resolution.",
+    "type": "duplicate_merge",
+    "reference_id": "r0000000-0000-0000-0000-000000000016",
+    "reference_type": "request"
+  },
+  {
+    "id": "c1421587-e414-44d6-87e1-1e1540e0f1e4",
+    "created_at": "2026-09-30T07:47:44.400Z",
+    "updated_at": "2026-09-30T07:47:44.400Z",
+    "user_id": "u0000000-0000-0000-0000-000000000022",
+    "title": "Request Consolidated into Master Incident",
+    "message": "Your request (REQ-1055) regarding \"Lab 3 AC leaking puddles near server rack.\" has been merged with Master Incident #inc0000- to expedite resolution. You will receive real-time updates as technicians work on the central resolution.",
+    "type": "duplicate_merge",
+    "reference_id": "r0000000-0000-0000-0000-000000000015",
+    "reference_type": "request"
+  },
+  {
+    "id": "6b8a7b44-90e8-47f7-904a-9d94412c1805",
+    "created_at": "2026-09-30T07:47:43.786Z",
+    "updated_at": "2026-09-30T07:47:43.786Z",
+    "user_id": "u0000000-0000-0000-0000-000000000021",
+    "title": "Request Consolidated into Master Incident",
+    "message": "Your request (REQ-1054) regarding \"Air conditioning not working in Lab 3, please fix immediately.\" has been merged with Master Incident #inc0000- to expedite resolution. You will receive real-time updates as technicians work on the central resolution.",
+    "type": "duplicate_merge",
+    "reference_id": "r0000000-0000-0000-0000-000000000014",
+    "reference_type": "request"
+  },
+  {
+    "id": "1d876c73-f86d-4fee-a369-2c083fcbce15",
+    "created_at": "2026-09-30T07:47:43.186Z",
+    "updated_at": "2026-09-30T07:47:43.186Z",
+    "user_id": "u0000000-0000-0000-0000-000000000020",
+    "title": "Request Consolidated into Master Incident",
+    "message": "Your request (REQ-1053) regarding \"Water dripping from ceiling air conditioner in Lab 3.\" has been merged with Master Incident #inc0000- to expedite resolution. You will receive real-time updates as technicians work on the central resolution.",
+    "type": "duplicate_merge",
+    "reference_id": "r0000000-0000-0000-0000-000000000013",
+    "reference_type": "request"
+  },
+  {
+    "id": "19413552-8fbc-431c-96c5-4fb6adeba44d",
+    "created_at": "2026-09-30T07:47:41.941Z",
+    "updated_at": "2026-09-30T07:47:41.941Z",
+    "user_id": "u0000000-0000-0000-0000-000000000022",
+    "title": "Request Consolidated into Master Incident",
+    "message": "Your request (REQ-1052) regarding \"AC problem in Lab 3, room is completely warm and damp.\" has been merged with Master Incident #inc0000- to expedite resolution. You will receive real-time updates as technicians work on the central resolution.",
+    "type": "duplicate_merge",
+    "reference_id": "r0000000-0000-0000-0000-000000000012",
+    "reference_type": "request"
+  },
+  {
+    "id": "bc12659a-5c83-4c70-bf23-b9b3d3032074",
+    "created_at": "2026-09-30T07:47:41.024Z",
+    "updated_at": "2026-09-30T07:47:41.024Z",
+    "user_id": "u0000000-0000-0000-0000-000000000021",
+    "title": "Request Consolidated into Master Incident",
+    "message": "Your request (REQ-1051) regarding \"Lab 3 AC is broken and dripping water onto desk 4.\" has been merged with Master Incident #inc0000- to expedite resolution. You will receive real-time updates as technicians work on the central resolution.",
+    "type": "duplicate_merge",
+    "reference_id": "r0000000-0000-0000-0000-000000000011",
+    "reference_type": "request"
+  },
+  {
     "id": "af5fe1ae-f33c-4986-a5c6-3748f9d12369",
     "created_at": "2026-09-30T07:39:33.557Z",
     "updated_at": "2026-09-30T07:39:33.557Z",
