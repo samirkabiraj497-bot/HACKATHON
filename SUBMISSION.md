@@ -92,12 +92,13 @@ npm run dev        # Runs on http://localhost:5173
 - **Frontend Deployment (Vercel):** Configured via [`campusflow-ai/frontend/vercel.json`](./campusflow-ai/frontend/vercel.json) with client-side SPA routing.
 - **Backend Deployment (Render/Railway):** Configured via [`campusflow-ai/backend/render.yaml`](./campusflow-ai/backend/render.yaml).
 - **Database:** Supabase PostgreSQL with 23 relational tables active.
-- **Demo Accounts (Instant Role Switching):**
+- **Demo Accounts & Profiles (Instant 1-Click Role Switching):**
   - **Administrator:** `admin@campusflow.ai` / `Password@123`
-  - **Department Head:** `hod.it@campusflow.ai` / `Password@123`
+  - **Department Head (IT):** `hod.it@campusflow.ai` / `Password@123`
   - **Faculty Advisor:** `faculty@campusflow.ai` / `Password@123`
   - **Staff Technician:** `rahul.it@campusflow.ai` / `Password@123`
   - **Student:** `student@campusflow.ai` / `Password@123`
+  - **Guest / Public Visitor:** `guest@campus.edu` (Zero credentials needed, fresh ticket intake at `/new`)
   *(Users can also switch personas with 1 click using the role dropdown in the navigation bar!)*
 
 ---
