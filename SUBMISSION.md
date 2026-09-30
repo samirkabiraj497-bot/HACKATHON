@@ -89,8 +89,9 @@ npm run dev        # Runs on http://localhost:5173
 
 ## 4. Deployed Application & Cloud Setup
 
+- **Live Cloud Backend (Render):** [https://hackathon-ajqx.onrender.com](https://hackathon-ajqx.onrender.com)
+- **Backend Health Status:** Verified `ONLINE` at [https://hackathon-ajqx.onrender.com/health](https://hackathon-ajqx.onrender.com/health)
 - **Frontend Deployment (Vercel):** Configured via [`campusflow-ai/frontend/vercel.json`](./campusflow-ai/frontend/vercel.json) with client-side SPA routing.
-- **Backend Deployment (Render/Railway):** Configured via [`campusflow-ai/backend/render.yaml`](./campusflow-ai/backend/render.yaml).
 - **Database:** Supabase PostgreSQL with 23 relational tables active.
 - **Demo Accounts & Profiles (Instant 1-Click Role Switching):**
   - **Administrator:** `admin@campusflow.ai` / `Password@123`
