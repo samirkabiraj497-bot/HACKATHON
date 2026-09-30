@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useNotifications } from '../context/NotificationContext';
 import { 
   Cpu, Bell, Play, User, CheckCircle2, AlertTriangle, 
-  ExternalLink, ChevronDown, Check, Zap, Sparkles 
+  ExternalLink, ChevronDown, Check, Zap, Sparkles, PlusCircle 
 } from 'lucide-react';
 
 export default function Navbar({ onOpenDemo }) {
@@ -18,6 +19,7 @@ export default function Navbar({ onOpenDemo }) {
     { key: 'faculty', label: 'Faculty Advisor', name: 'Prof. Rajesh Nair', color: 'text-emerald-400 border-emerald-500/30' },
     { key: 'staff', label: 'Staff Technician (AV)', name: 'Rahul Sharma', color: 'text-amber-400 border-amber-500/30' },
     { key: 'student', label: 'Student', name: 'Aarav Mehta', color: 'text-cyan-400 border-cyan-500/30' },
+    { key: 'guest', label: 'Guest / Public Visitor', name: 'Campus Guest', color: 'text-rose-400 border-rose-500/30' },
   ];
 
   const currentRoleObj = roles.find(r => r.key === (user?.role || 'admin')) || roles[0];
@@ -57,6 +59,17 @@ export default function Navbar({ onOpenDemo }) {
         {/* Right Section Controls */}
         <div className="flex items-center space-x-3">
           
+          {/* Quick Open New Fresh Request */}
+          <Link
+            to="/new"
+            className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 border border-emerald-500/40 text-emerald-300 text-xs font-semibold transition shadow-sm shadow-emerald-500/10 cursor-pointer"
+            title="Open a fresh ticket without demo presets"
+          >
+            <PlusCircle className="w-3.5 h-3.5 text-emerald-400" />
+            <span className="hidden sm:inline">Open New (Fresh)</span>
+            <span className="sm:hidden">New</span>
+          </Link>
+
           {/* Quick 1-Click Judge Demo Button */}
           <button
             id="run-demo-btn"

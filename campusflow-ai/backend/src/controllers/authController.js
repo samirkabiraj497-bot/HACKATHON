@@ -102,7 +102,17 @@ async function switchDemoRole(req, res, next) {
     const users = await db.users.find();
     let targetUser = users.find(u => (u.role || '').toLowerCase() === role.toLowerCase());
 
-    if (!targetUser) {
+    if (role.toLowerCase() === 'guest') {
+      targetUser = {
+        id: 'u0000000-0000-0000-0000-000000000099',
+        full_name: 'Campus Guest (Visitor)',
+        email: 'guest@campus.edu',
+        role: 'guest',
+        phone: '+91 98765 99999',
+        avatar_url: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150',
+        status: 'active'
+      };
+    } else if (!targetUser) {
       targetUser = users[0];
     }
 

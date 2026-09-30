@@ -1,5 +1,168 @@
 [
   {
+    "id": "212443f5-5d02-4970-92b9-25b3077706eb",
+    "name": "When a student submits a leave request longer than three day...",
+    "description": "When a student submits a leave request longer than three days, send it to the faculty advisor. If approved, notify the student and update the attendance record. If it isn't reviewed within 24 hours, remind the advisor.",
+    "trigger_event": "LEAVE_REQUEST_SUBMITTED",
+    "is_active": true,
+    "created_by": null,
+    "definition": {
+      "name": "When a student submits a leave request longer than three day...",
+      "edges": [
+        {
+          "id": "edge-node-1-node-2",
+          "label": "Next",
+          "source": "node-1",
+          "target": "node-2"
+        },
+        {
+          "id": "edge-node-2-node-3",
+          "label": "Next",
+          "source": "node-2",
+          "target": "node-3"
+        },
+        {
+          "id": "edge-node-3-node-approval",
+          "label": "If True",
+          "source": "node-3",
+          "target": "node-approval"
+        },
+        {
+          "id": "edge-node-approval-node-notify",
+          "label": "Next",
+          "source": "node-approval",
+          "target": "node-notify"
+        },
+        {
+          "id": "edge-node-notify-node-wait",
+          "label": "Next",
+          "source": "node-notify",
+          "target": "node-wait"
+        },
+        {
+          "id": "edge-node-wait-node-escalate",
+          "label": "Next",
+          "source": "node-wait",
+          "target": "node-escalate"
+        },
+        {
+          "id": "edge-node-escalate-node-8",
+          "label": "Next",
+          "source": "node-escalate",
+          "target": "node-8"
+        }
+      ],
+      "nodes": [
+        {
+          "id": "node-1",
+          "type": "TRIGGER",
+          "label": "Leave Request Created",
+          "config": {
+            "event": "LEAVE_REQUEST_SUBMITTED"
+          },
+          "position": {
+            "x": 250,
+            "y": 50
+          }
+        },
+        {
+          "id": "node-2",
+          "type": "AI_CLASSIFICATION",
+          "label": "AI Entity & Priority Extraction",
+          "config": {
+            "model": "neural-classifier-v2",
+            "extractEntities": true
+          },
+          "position": {
+            "x": 250,
+            "y": 160
+          }
+        },
+        {
+          "id": "node-3",
+          "type": "CONDITION",
+          "label": "Evaluate Condition: Duration > 3 days",
+          "config": {
+            "conditionExpression": "Duration > 3 days"
+          },
+          "position": {
+            "x": 250,
+            "y": 270
+          }
+        },
+        {
+          "id": "node-approval",
+          "type": "APPROVAL",
+          "label": "Routing for Faculty Advisor Sign-Off",
+          "config": {
+            "approverRole": "faculty_advisor"
+          },
+          "position": {
+            "x": 250,
+            "y": 380
+          }
+        },
+        {
+          "id": "node-notify",
+          "type": "NOTIFICATION",
+          "label": "Push Notification & Email Broadcast",
+          "config": {
+            "channels": [
+              "in_app",
+              "email"
+            ]
+          },
+          "position": {
+            "x": 250,
+            "y": 490
+          }
+        },
+        {
+          "id": "node-wait",
+          "type": "WAIT",
+          "label": "SLA Watchdog Timer (24h / Dynamic SLA)",
+          "config": {
+            "waitDurationMinutes": 1440,
+            "checkIntervalMinutes": 30
+          },
+          "position": {
+            "x": 250,
+            "y": 600
+          }
+        },
+        {
+          "id": "node-escalate",
+          "type": "ESCALATE",
+          "label": "Automated Escalation if Pending / Breached",
+          "config": {
+            "escalateToRole": "department_head"
+          },
+          "position": {
+            "x": 250,
+            "y": 710
+          }
+        },
+        {
+          "id": "node-8",
+          "type": "END",
+          "label": "Resolution, Record Update & Daily Report Sync",
+          "config": {
+            "archiveLogs": true
+          },
+          "position": {
+            "x": 250,
+            "y": 820
+          }
+        }
+      ],
+      "description": "When a student submits a leave request longer than three days, send it to the faculty advisor. If approved, notify the student and update the attendance record. If it isn't reviewed within 24 hours, remind the advisor.",
+      "triggerEvent": "LEAVE_REQUEST_SUBMITTED",
+      "estimatedAutomationEfficiency": "94%"
+    },
+    "created_at": "2026-09-30T09:10:45.011+00:00",
+    "updated_at": "2026-09-30T09:10:45.011+00:00"
+  },
+  {
     "id": "w0000000-0000-0000-0000-000000000001",
     "name": "Classroom & Academic Equipment Rapid Resolution",
     "description": "Autonomous triaging, immediate technician dispatch, and 2-hour SLA tracking for teaching venues.",

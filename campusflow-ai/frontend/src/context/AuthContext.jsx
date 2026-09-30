@@ -75,7 +75,8 @@ export const AuthProvider = ({ children }) => {
         department_head: { id: 'u0000000-0000-0000-0000-000000000002', full_name: 'Dr. Sunita Rao', email: 'hod.it@campusflow.ai', role: 'department_head' },
         faculty: { id: 'u0000000-0000-0000-0000-000000000004', full_name: 'Prof. Rajesh Nair', email: 'faculty@campusflow.ai', role: 'faculty' },
         staff: { id: 'u0000000-0000-0000-0000-000000000010', full_name: 'Rahul Sharma', email: 'rahul.it@campusflow.ai', role: 'staff' },
-        student: { id: 'u0000000-0000-0000-0000-000000000020', full_name: 'Aarav Mehta', email: 'student@campusflow.ai', role: 'student' }
+        student: { id: 'u0000000-0000-0000-0000-000000000020', full_name: 'Aarav Mehta', email: 'student@campusflow.ai', role: 'student' },
+        guest: { id: 'u0000000-0000-0000-0000-000000000099', full_name: 'Campus Guest (Visitor)', email: 'guest@campus.edu', role: 'guest' }
       };
       const fallbackUser = roleMap[targetRole] || roleMap.admin;
       setUser(fallbackUser);

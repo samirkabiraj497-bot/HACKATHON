@@ -12,7 +12,8 @@ import {
   FileText,
   BarChart3,
   Sliders,
-  Home
+  Home,
+  PlusCircle
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
@@ -22,6 +23,7 @@ export default function Sidebar() {
   const navItems = [
     { to: '/', label: 'Overview & Landing', icon: Home },
     { to: '/dashboard', label: 'AI Operations Center', icon: LayoutDashboard },
+    { to: '/new', label: 'Open New (Fresh)', icon: PlusCircle, badge: 'Guest' },
     { to: '/intake', label: 'Smart Request Intake', icon: Sparkles, badge: 'AI' },
     { to: '/requests', label: 'Requests & Tickets', icon: ClipboardList },
     { to: '/duplicates', label: 'Duplicate Incidents', icon: Layers, badge: 'Cluster' },

@@ -1,5 +1,77 @@
 [
   {
+    "id": "709fa3cf-5a22-4b23-8d72-9cdcaecab151",
+    "created_at": "2026-09-30T09:17:00.724Z",
+    "updated_at": "2026-09-30T09:17:00.724Z",
+    "user_id": "u0000000-0000-0000-0000-000000000020",
+    "title": "✅ Request Received & Autonomous Workflow Active: REQ-1053",
+    "message": "Your request \"Water dispenser on 2nd floor academic block cooling fan is buzzing loudly and not chilling water\" was analyzed and routed to Maintenance with MEDIUM priority. SLA target: 24 hours.",
+    "type": "request_created",
+    "reference_id": "a56eabf3-201a-4242-90ac-808d48a24593",
+    "reference_type": "request",
+    "is_read": false
+  },
+  {
+    "id": "01279f76-3239-42c8-b270-32b458c70dd8",
+    "created_at": "2026-09-30T09:17:00.488Z",
+    "updated_at": "2026-09-30T09:17:00.488Z",
+    "user_id": "u0000000-0000-0000-0000-000000000012",
+    "title": "🎯 New Task Assigned: REQ-1053",
+    "message": "AI dispatched REQ-1053 (MEDIUM) to you based on 95% skill match. Location: Academic Block 2nd Floor Corridor.",
+    "type": "task_assigned",
+    "reference_id": "a56eabf3-201a-4242-90ac-808d48a24593",
+    "reference_type": "request",
+    "is_read": false
+  },
+  {
+    "id": "055b3797-7108-436f-84c7-dd349f84033a",
+    "created_at": "2026-09-30T09:15:52.492Z",
+    "updated_at": "2026-09-30T09:15:52.492Z",
+    "user_id": "u0000000-0000-0000-0000-000000000020",
+    "title": "✅ Request Received & Autonomous Workflow Active: REQ-1052",
+    "message": "Your request \"bereakfast is not coming\" was analyzed and routed to Administration with MEDIUM priority. SLA target: 24 hours.",
+    "type": "request_created",
+    "reference_id": "296d7ad3-0f29-4cd0-8c10-d595a9342159",
+    "reference_type": "request",
+    "is_read": false
+  },
+  {
+    "id": "84f0a608-8db7-4c67-b79f-58771e395e52",
+    "created_at": "2026-09-30T09:15:52.308Z",
+    "updated_at": "2026-09-30T09:15:52.308Z",
+    "user_id": "u0000000-0000-0000-0000-000000000017",
+    "title": "🎯 New Task Assigned: REQ-1052",
+    "message": "AI dispatched REQ-1052 (MEDIUM) to you based on 60% skill match. Location: Campus.",
+    "type": "task_assigned",
+    "reference_id": "296d7ad3-0f29-4cd0-8c10-d595a9342159",
+    "reference_type": "request",
+    "is_read": false
+  },
+  {
+    "id": "0189dbeb-1563-4874-a6aa-748a10bb65dd",
+    "created_at": "2026-09-30T09:11:16.811Z",
+    "updated_at": "2026-09-30T09:11:16.811Z",
+    "user_id": "u0000000-0000-0000-0000-000000000020",
+    "title": "✅ Request Received & Autonomous Workflow Active: REQ-1049",
+    "message": "Your request \"Hostel Block B 3rd floor Wi-Fi access point completely down.\" was analyzed and routed to Hostel with MEDIUM priority. SLA target: 24 hours.",
+    "type": "request_created",
+    "reference_id": "c555bf4e-7b5b-4be2-a7bf-b848f48b3846",
+    "reference_type": "request",
+    "is_read": false
+  },
+  {
+    "id": "431372d0-2488-41e0-a965-805b13ec562a",
+    "created_at": "2026-09-30T09:11:16.611Z",
+    "updated_at": "2026-09-30T09:11:16.611Z",
+    "user_id": "u0000000-0000-0000-0000-000000000015",
+    "title": "🎯 New Task Assigned: REQ-1049",
+    "message": "AI dispatched REQ-1049 (MEDIUM) to you based on 100% skill match. Location: Hostel Block B.",
+    "type": "task_assigned",
+    "reference_id": "c555bf4e-7b5b-4be2-a7bf-b848f48b3846",
+    "reference_type": "request",
+    "is_read": false
+  },
+  {
     "id": "93db0ecb-5844-44f7-a893-386a7a1adc51",
     "created_at": "2026-09-30T09:09:11.492Z",
     "updated_at": "2026-09-30T09:09:11.492Z",

@@ -15,6 +15,8 @@ async function getRequests(req, res, next) {
     // Role-based visibility
     if (req.user && req.user.role === 'student') {
       list = list.filter(r => r.submitted_by === req.user.id);
+    } else if (req.user && req.user.role === 'guest') {
+      list = list.filter(r => r.submitted_by === req.user.id || r.is_guest || !r.submitted_by);
     } else if (req.user && req.user.role === 'staff') {
       const emp = await db.employees.findOne({ user_id: req.user.id });
       if (emp) {
@@ -98,8 +100,13 @@ async function getRequestById(req, res, next) {
  */
 async function createRequest(req, res, next) {
   try {
-    const { title, description, location, deadline, manualOverride } = req.body;
-    const submitter = req.user || { id: 'u0000000-0000-0000-0000-000000000020', full_name: 'Aarav Mehta' };
+    const { title, description, location, deadline, manualOverride, guestName, guestEmail } = req.body;
+    const submitter = req.user || { 
+      id: 'u0000000-0000-0000-0000-000000000099', 
+      full_name: guestName || 'Campus Guest', 
+      role: 'guest',
+      email: guestEmail || 'guest@campus.edu' 
+    };
 
     if (!title || !description) {
       return errorResponse(res, 'Title and description are required', 400, 'VALIDATION_ERROR');
@@ -170,6 +177,9 @@ async function createRequest(req, res, next) {
       priority: finalPriority,
       status: recommended ? 'ASSIGNED' : 'NEW',
       submitted_by: submitter.id,
+      submitted_by_name: guestName || submitter.full_name,
+      submitted_by_email: guestEmail || submitter.email,
+      is_guest: submitter.role === 'guest' || !req.user,
       assigned_to: recommended ? recommended.employeeId : null,
       location: location || (aiClassification.entities && aiClassification.entities.location) || 'Campus',
       deadline: deadline ? new Date(deadline).toISOString() : null,

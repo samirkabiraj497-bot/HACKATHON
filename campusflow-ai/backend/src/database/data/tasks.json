@@ -1,5 +1,41 @@
 [
   {
+    "id": "5b2ed66a-6ab5-4f18-984f-3294fd2230fb",
+    "created_at": "2026-09-30T09:17:00.103Z",
+    "updated_at": "2026-09-30T09:17:00.103Z",
+    "request_id": "a56eabf3-201a-4242-90ac-808d48a24593",
+    "title": "Resolution for REQ-1053: Water dispenser on 2nd floor academic block cooling fan is b",
+    "description": "The water dispenser cooling compressor unit is vibrating and water remains lukewarm during afternoon classes.",
+    "assigned_to": "e0000000-0000-0000-0000-000000000003",
+    "status": "PENDING",
+    "priority": "MEDIUM",
+    "sla_deadline": "2026-10-01T09:16:58.873Z"
+  },
+  {
+    "id": "2782b9b3-3f83-423c-a686-d15f3e9c7281",
+    "created_at": "2026-09-30T09:15:51.928Z",
+    "updated_at": "2026-09-30T09:15:51.928Z",
+    "request_id": "296d7ad3-0f29-4cd0-8c10-d595a9342159",
+    "title": "Resolution for REQ-1052: bereakfast is not coming",
+    "description": "from few days they are not giving breakfast",
+    "assigned_to": "e0000000-0000-0000-0000-000000000008",
+    "status": "PENDING",
+    "priority": "MEDIUM",
+    "sla_deadline": "2026-10-01T09:15:50.730Z"
+  },
+  {
+    "id": "20dd3a6b-f4ff-4f48-a52f-6ee5bbdf7f55",
+    "created_at": "2026-09-30T09:11:16.226Z",
+    "updated_at": "2026-09-30T09:11:16.226Z",
+    "request_id": "c555bf4e-7b5b-4be2-a7bf-b848f48b3846",
+    "title": "Resolution for REQ-1049: Hostel Block B 3rd floor Wi-Fi access point completely down.",
+    "description": "No internet connectivity since 7 PM. Multiple students are preparing for semester midterms.",
+    "assigned_to": "e0000000-0000-0000-0000-000000000006",
+    "status": "PENDING",
+    "priority": "MEDIUM",
+    "sla_deadline": "2026-10-01T09:11:14.732Z"
+  },
+  {
     "id": "5d29b9e1-4607-4725-94da-785c03c55ba6",
     "created_at": "2026-09-30T09:09:10.874Z",
     "updated_at": "2026-09-30T09:09:10.874Z",

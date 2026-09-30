@@ -19,6 +19,7 @@ import CopilotPage from './pages/CopilotPage';
 import ReportsPage from './pages/ReportsPage';
 import AnalyticsPage from './pages/AnalyticsPage';
 import AdminControlPage from './pages/AdminControlPage';
+import FreshRequestPage from './pages/FreshRequestPage';
 
 function AppLayout() {
   const [showDemoModal, setShowDemoModal] = useState(false);
@@ -38,6 +39,8 @@ function AppLayout() {
           <Routes>
             <Route path="/" element={<LandingPage onOpenDemo={() => setShowDemoModal(true)} />} />
             <Route path="/dashboard" element={<DashboardPage onOpenDemo={() => setShowDemoModal(true)} />} />
+            <Route path="/new" element={<FreshRequestPage />} />
+            <Route path="/open-new" element={<FreshRequestPage />} />
             <Route path="/intake" element={<IntakePage />} />
             <Route path="/requests" element={<RequestsPage />} />
             <Route path="/duplicates" element={<DuplicatesPage />} />

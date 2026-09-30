@@ -1,5 +1,77 @@
 [
   {
+    "id": "444009ff-f577-42c4-9022-792cd415b399",
+    "created_at": "2026-09-30T09:17:01.093Z",
+    "updated_at": "2026-09-30T09:17:01.093Z",
+    "actor_name": "CampusFlow AI Agent",
+    "actor_type": "AI_AGENT",
+    "action": "AI_CLASSIFIED_AND_ROUTED",
+    "entity_type": "request",
+    "entity_id": "a56eabf3-201a-4242-90ac-808d48a24593",
+    "details": "Classified as MEDIUM Priority for Maintenance. Assigned to Priya Singh (Score: 82%)."
+  },
+  {
+    "id": "1d6156f0-18ad-4294-abbc-7bba0024fc9a",
+    "created_at": "2026-09-30T09:15:52.887Z",
+    "updated_at": "2026-09-30T09:15:52.887Z",
+    "actor_name": "CampusFlow AI Agent",
+    "actor_type": "AI_AGENT",
+    "action": "AI_CLASSIFIED_AND_ROUTED",
+    "entity_type": "request",
+    "entity_id": "296d7ad3-0f29-4cd0-8c10-d595a9342159",
+    "details": "Classified as MEDIUM Priority for Administration. Assigned to Anil Saxena (Score: 72%)."
+  },
+  {
+    "id": "f2e7cd6e-64eb-450e-ba03-7efe4e1c1fbc",
+    "created_at": "2026-09-30T09:11:53.223Z",
+    "updated_at": "2026-09-30T09:11:53.223Z",
+    "actor_name": "AI_AGENT",
+    "actor_type": "AI_AGENT",
+    "action": "MERGE_DUPLICATE_INCIDENT",
+    "entity_type": "incident",
+    "entity_id": "ee92e219-26bd-424b-8dbd-aa8621d7bf01",
+    "details": "Merged 5 requests into master incident #ee92e219 at Lab 3"
+  },
+  {
+    "id": "209b1140-c4d8-4989-b44f-800baf84eaf8",
+    "created_at": "2026-09-30T09:11:43.564Z",
+    "updated_at": "2026-09-30T09:11:43.564Z",
+    "actor_name": "AI_AGENT",
+    "actor_type": "AI_AGENT",
+    "action": "MERGE_DUPLICATE_INCIDENT",
+    "entity_type": "incident",
+    "entity_id": "ee92e219-26bd-424b-8dbd-aa8621d7bf01",
+    "details": "Merged 5 requests into master incident #ee92e219 at Lab 3"
+  },
+  {
+    "id": "5dbda5d1-5c74-41f3-81fd-d05d7af05fd8",
+    "created_at": "2026-09-30T09:11:34.587Z",
+    "updated_at": "2026-09-30T09:11:34.587Z",
+    "actor_name": "AI Supervisor",
+    "actor_type": "AI_AGENT",
+    "action": "ESCALATE_REQUEST",
+    "entity_type": "request",
+    "entity_id": "c555bf4e-7b5b-4be2-a7bf-b848f48b3846",
+    "old_values": {
+      "status": "ASSIGNED"
+    },
+    "new_values": {
+      "status": "ESCALATED"
+    },
+    "details": "Manual supervisor escalation requested from operations console"
+  },
+  {
+    "id": "19287394-436b-489d-8f52-52bfa6ccb77f",
+    "created_at": "2026-09-30T09:11:17.220Z",
+    "updated_at": "2026-09-30T09:11:17.220Z",
+    "actor_name": "CampusFlow AI Agent",
+    "actor_type": "AI_AGENT",
+    "action": "AI_CLASSIFIED_AND_ROUTED",
+    "entity_type": "request",
+    "entity_id": "c555bf4e-7b5b-4be2-a7bf-b848f48b3846",
+    "details": "Classified as MEDIUM Priority for Hostel. Assigned to Suresh Menon (Score: 82%)."
+  },
+  {
     "id": "a6c8029f-fc28-4cb8-a9df-f21953ca0ed4",
     "created_at": "2026-09-30T09:09:11.876Z",
     "updated_at": "2026-09-30T09:09:11.876Z",

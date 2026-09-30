@@ -1,5 +1,53 @@
 [
   {
+    "id": "8f860459-4817-41e5-b5e3-ca513e753d21",
+    "created_at": "2026-09-30T09:17:00.288Z",
+    "updated_at": "2026-09-30T09:17:00.288Z",
+    "task_id": "5b2ed66a-6ab5-4f18-984f-3294fd2230fb",
+    "employee_id": "e0000000-0000-0000-0000-000000000003",
+    "assigned_by": "CAMPUSFLOW_AI_AGENT",
+    "match_score": 82,
+    "criteria_breakdown": {
+      "skillScore": 95,
+      "workloadScore": 45,
+      "availabilityScore": 100,
+      "ratingScore": 98.00000000000001,
+      "proximityScore": 80
+    }
+  },
+  {
+    "id": "d8df2ed5-aa83-4ac3-8175-23e08da875fa",
+    "created_at": "2026-09-30T09:15:52.119Z",
+    "updated_at": "2026-09-30T09:15:52.119Z",
+    "task_id": "2782b9b3-3f83-423c-a686-d15f3e9c7281",
+    "employee_id": "e0000000-0000-0000-0000-000000000008",
+    "assigned_by": "CAMPUSFLOW_AI_AGENT",
+    "match_score": 72,
+    "criteria_breakdown": {
+      "skillScore": 60,
+      "workloadScore": 55,
+      "availabilityScore": 100,
+      "ratingScore": 94,
+      "proximityScore": 80
+    }
+  },
+  {
+    "id": "35b8605a-3308-4aee-a3e5-2a3674445eca",
+    "created_at": "2026-09-30T09:11:16.417Z",
+    "updated_at": "2026-09-30T09:11:16.417Z",
+    "task_id": "20dd3a6b-f4ff-4f48-a52f-6ee5bbdf7f55",
+    "employee_id": "e0000000-0000-0000-0000-000000000006",
+    "assigned_by": "CAMPUSFLOW_AI_AGENT",
+    "match_score": 82,
+    "criteria_breakdown": {
+      "skillScore": 100,
+      "workloadScore": 40,
+      "availabilityScore": 100,
+      "ratingScore": 90,
+      "proximityScore": 80
+    }
+  },
+  {
     "id": "3a35e1b2-97b5-4d93-8f4c-702ee62eb1ce",
     "created_at": "2026-09-30T09:09:11.095Z",
     "updated_at": "2026-09-30T09:09:11.095Z",

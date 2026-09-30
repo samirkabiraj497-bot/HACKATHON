@@ -1,5 +1,68 @@
 [
   {
+    "id": "6790cc32-4063-4713-a089-daff35b032c0",
+    "created_at": "2026-09-30T09:17:00.909Z",
+    "updated_at": "2026-09-30T09:17:00.909Z",
+    "request_id": "a56eabf3-201a-4242-90ac-808d48a24593",
+    "decision_type": "INTAKE_TRIAGE_AND_DISPATCH",
+    "input_payload": {
+      "title": "Water dispenser on 2nd floor academic block cooling fan is buzzing loudly and not chilling water",
+      "description": "The water dispenser cooling compressor unit is vibrating and water remains lukewarm during afternoon classes.",
+      "location": "Academic Block 2nd Floor Corridor"
+    },
+    "output_payload": {
+      "category": "Facilities & Infrastructure",
+      "department": "Maintenance",
+      "priority": "MEDIUM",
+      "assignee": "Priya Singh"
+    },
+    "confidence": 0.96,
+    "reasoning": "Marked MEDIUM standard operational priority based on routine operational SLA.",
+    "model_used": "gemini-2.0-flash"
+  },
+  {
+    "id": "8eeda961-10ab-4070-b1cd-b114e7883114",
+    "created_at": "2026-09-30T09:15:52.687Z",
+    "updated_at": "2026-09-30T09:15:52.687Z",
+    "request_id": "296d7ad3-0f29-4cd0-8c10-d595a9342159",
+    "decision_type": "INTAKE_TRIAGE_AND_DISPATCH",
+    "input_payload": {
+      "title": "bereakfast is not coming",
+      "description": "from few days they are not giving breakfast",
+      "location": ""
+    },
+    "output_payload": {
+      "category": "Administrative Services",
+      "department": "Administration",
+      "priority": "MEDIUM",
+      "assignee": "Anil Saxena"
+    },
+    "confidence": 0.58,
+    "reasoning": "Marked MEDIUM standard operational priority based on routine operational SLA.",
+    "model_used": "gemini-2.0-flash"
+  },
+  {
+    "id": "db360251-80ed-4e8a-a8d3-25902608bea7",
+    "created_at": "2026-09-30T09:11:17.018Z",
+    "updated_at": "2026-09-30T09:11:17.018Z",
+    "request_id": "c555bf4e-7b5b-4be2-a7bf-b848f48b3846",
+    "decision_type": "INTAKE_TRIAGE_AND_DISPATCH",
+    "input_payload": {
+      "title": "Hostel Block B 3rd floor Wi-Fi access point completely down.",
+      "description": "No internet connectivity since 7 PM. Multiple students are preparing for semester midterms.",
+      "location": "Hostel Block B"
+    },
+    "output_payload": {
+      "category": "Hostel Operations",
+      "department": "Hostel",
+      "priority": "MEDIUM",
+      "assignee": "Suresh Menon"
+    },
+    "confidence": 0.96,
+    "reasoning": "Marked MEDIUM standard operational priority based on routine operational SLA.",
+    "model_used": "gemini-2.0-flash"
+  },
+  {
     "id": "f2b10fc5-65fb-4ebc-b615-84c34588714e",
     "created_at": "2026-09-30T09:09:11.683Z",
     "updated_at": "2026-09-30T09:09:11.683Z",
