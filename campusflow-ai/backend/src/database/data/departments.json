@@ -1,0 +1,112 @@
+[
+  {
+    "id": "d0000000-0000-0000-0000-000000000001",
+    "name": "IT Support",
+    "code": "IT",
+    "description": "Audio-visual systems, campus Wi-Fi, computer labs, server infrastructure",
+    "head_id": null,
+    "email": "it-support@campus.edu",
+    "sla_multiplier": 1,
+    "is_active": true,
+    "created_at": "2026-09-30T06:45:10.312102+00:00"
+  },
+  {
+    "id": "d0000000-0000-0000-0000-000000000002",
+    "name": "Maintenance",
+    "code": "MAINT",
+    "description": "HVAC systems, electrical, plumbing, civil infrastructure and carpentry",
+    "head_id": null,
+    "email": "facilities@campus.edu",
+    "sla_multiplier": 1,
+    "is_active": true,
+    "created_at": "2026-09-30T06:45:10.312102+00:00"
+  },
+  {
+    "id": "d0000000-0000-0000-0000-000000000003",
+    "name": "Hostel",
+    "code": "HOSTEL",
+    "description": "Residential halls, room fixtures, water supply, dining and warden affairs",
+    "head_id": null,
+    "email": "hostel-admin@campus.edu",
+    "sla_multiplier": 1,
+    "is_active": true,
+    "created_at": "2026-09-30T06:45:10.312102+00:00"
+  },
+  {
+    "id": "d0000000-0000-0000-0000-000000000004",
+    "name": "Academics",
+    "code": "ACAD",
+    "description": "Curriculum scheduling, timetable coordination, attendance regularizations",
+    "head_id": null,
+    "email": "academic-dean@campus.edu",
+    "sla_multiplier": 1,
+    "is_active": true,
+    "created_at": "2026-09-30T06:45:10.312102+00:00"
+  },
+  {
+    "id": "d0000000-0000-0000-0000-000000000005",
+    "name": "Administration",
+    "code": "ADMIN",
+    "description": "Student certificates, fees, identity cards, admissions, clearance letters",
+    "head_id": null,
+    "email": "registrar@campus.edu",
+    "sla_multiplier": 1,
+    "is_active": true,
+    "created_at": "2026-09-30T06:45:10.312102+00:00"
+  },
+  {
+    "id": "d0000000-0000-0000-0000-000000000006",
+    "name": "Examination",
+    "code": "EXAM",
+    "description": "Exam hall tickets, revaluation, grade sheets, invigilation coordination",
+    "head_id": null,
+    "email": "coe@campus.edu",
+    "sla_multiplier": 1,
+    "is_active": true,
+    "created_at": "2026-09-30T06:45:10.312102+00:00"
+  },
+  {
+    "id": "d0000000-0000-0000-0000-000000000007",
+    "name": "Library",
+    "code": "LIB",
+    "description": "Central library book issues, digital research databases, reading halls",
+    "head_id": null,
+    "email": "library@campus.edu",
+    "sla_multiplier": 1,
+    "is_active": true,
+    "created_at": "2026-09-30T06:45:10.312102+00:00"
+  },
+  {
+    "id": "d0000000-0000-0000-0000-000000000008",
+    "name": "Student Affairs",
+    "code": "SA",
+    "description": "Clubs, fests, grievance redressal, sports facilities and student council",
+    "head_id": null,
+    "email": "student-affairs@campus.edu",
+    "sla_multiplier": 1,
+    "is_active": true,
+    "created_at": "2026-09-30T06:45:10.312102+00:00"
+  },
+  {
+    "id": "d0000000-0000-0000-0000-000000000009",
+    "name": "Security",
+    "code": "SEC",
+    "description": "Campus access control, perimeter security, CCTV, lost & found",
+    "head_id": null,
+    "email": "security@campus.edu",
+    "sla_multiplier": 1,
+    "is_active": true,
+    "created_at": "2026-09-30T06:45:10.312102+00:00"
+  },
+  {
+    "id": "d0000000-0000-0000-0000-000000000010",
+    "name": "Transport",
+    "code": "TRANS",
+    "description": "Campus bus shuttles, student transport passes, vehicle logistics",
+    "head_id": null,
+    "email": "transport@campus.edu",
+    "sla_multiplier": 1,
+    "is_active": true,
+    "created_at": "2026-09-30T06:45:10.312102+00:00"
+  }
+]

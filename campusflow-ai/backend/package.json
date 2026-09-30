@@ -1,0 +1,27 @@
+{
+  "name": "campusflow-backend",
+  "version": "1.0.0",
+  "description": "CampusFlow AI - AI College Operations Agent Backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/database/seed.js",
+    "test": "node tests/run-tests.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.3",
+    "uuid": "^11.1.0"
+  },
+  "keywords": ["ai", "workflow", "college-operations", "automation", "campusflow"],
+  "author": "CampusFlow AI Team",
+  "license": "MIT"
+}

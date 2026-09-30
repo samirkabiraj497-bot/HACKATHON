@@ -1,0 +1,27 @@
+[
+  {
+    "id": "student",
+    "name": "Student",
+    "description": "Campus student submitting and tracking operational requests"
+  },
+  {
+    "id": "faculty",
+    "name": "Faculty",
+    "description": "Faculty member submitting requests and approving student workflows"
+  },
+  {
+    "id": "staff",
+    "name": "Operational Staff",
+    "description": "Technician/worker executing assigned campus operational tasks"
+  },
+  {
+    "id": "department_head",
+    "name": "Department Head",
+    "description": "Supervising department operations, staff allocation and escalations"
+  },
+  {
+    "id": "admin",
+    "name": "Campus Administrator",
+    "description": "Full system administration, SLA policies, and cross-campus analytics"
+  }
+]

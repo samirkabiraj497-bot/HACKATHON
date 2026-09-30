@@ -1,0 +1,216 @@
+[
+  {
+    "id": "4f46678d-2ba1-4f22-9bac-2c3066636930",
+    "created_at": "2026-09-30T07:39:33.914Z",
+    "updated_at": "2026-09-30T07:39:33.914Z",
+    "actor_name": "CampusFlow AI Agent",
+    "actor_type": "AI_AGENT",
+    "action": "AI_CLASSIFIED_AND_ROUTED",
+    "entity_type": "request",
+    "entity_id": "a7fb1f9d-c25b-431f-80a5-f7f3232c87c3",
+    "details": "Classified as CRITICAL Priority for IT Support. Assigned to Rahul Sharma (Score: 88%)."
+  },
+  {
+    "id": "34313635-bd86-4b4d-a912-ec657e53caa4",
+    "created_at": "2026-09-30T07:19:22.243Z",
+    "updated_at": "2026-09-30T07:19:22.243Z",
+    "actor_name": "CampusFlow AI Agent",
+    "actor_type": "AI_AGENT",
+    "action": "AI_CLASSIFIED_AND_ROUTED",
+    "entity_type": "request",
+    "entity_id": "3f4efdc8-b22a-40b9-a00c-a7079963ee5b",
+    "details": "Classified as CRITICAL Priority for IT Support. Assigned to Rahul Sharma (Score: 88%)."
+  },
+  {
+    "id": "4938ea75-c7e3-478f-b87d-4ba8620bda82",
+    "created_at": "2026-09-30T06:48:08.175Z",
+    "updated_at": "2026-09-30T06:48:08.175Z",
+    "actor_name": "CAMPUSFLOW_AI_SLA_WATCHDOG",
+    "actor_type": "AI_AGENT",
+    "action": "AUTO_ESCALATE_SLA_BREACH",
+    "entity_type": "request",
+    "entity_id": "r0000000-0000-0000-0000-0000000000317",
+    "old_values": {
+      "status": "ASSIGNED",
+      "sla_status": "on_track"
+    },
+    "new_values": {
+      "status": "ESCALATED",
+      "sla_status": "breached"
+    },
+    "details": "SLA breached (159% elapsed). Autonomously escalated to Department Head."
+  },
+  {
+    "id": "f1329e40-48e7-423b-9f43-0920dfee95d6",
+    "created_at": "2026-09-30T06:48:07.573Z",
+    "updated_at": "2026-09-30T06:48:07.573Z",
+    "actor_name": "CAMPUSFLOW_AI_SLA_WATCHDOG",
+    "actor_type": "AI_AGENT",
+    "action": "AUTO_ESCALATE_SLA_BREACH",
+    "entity_type": "request",
+    "entity_id": "r0000000-0000-0000-0000-0000000000316",
+    "old_values": {
+      "status": "ASSIGNED",
+      "sla_status": "on_track"
+    },
+    "new_values": {
+      "status": "ESCALATED",
+      "sla_status": "breached"
+    },
+    "details": "SLA breached (167% elapsed). Autonomously escalated to Department Head."
+  },
+  {
+    "id": "4cecec11-a69a-4bdc-976a-036e7d3225f5",
+    "created_at": "2026-09-30T06:48:07.007Z",
+    "updated_at": "2026-09-30T06:48:07.007Z",
+    "actor_name": "CAMPUSFLOW_AI_SLA_WATCHDOG",
+    "actor_type": "AI_AGENT",
+    "action": "AUTO_ESCALATE_SLA_BREACH",
+    "entity_type": "request",
+    "entity_id": "r0000000-0000-0000-0000-0000000000313",
+    "old_values": {
+      "status": "ASSIGNED",
+      "sla_status": "on_track"
+    },
+    "new_values": {
+      "status": "ESCALATED",
+      "sla_status": "breached"
+    },
+    "details": "SLA breached (192% elapsed). Autonomously escalated to Department Head."
+  },
+  {
+    "id": "e0bfb66b-3496-4b11-b68e-76fb2ba3ebeb",
+    "created_at": "2026-09-30T06:48:06.419Z",
+    "updated_at": "2026-09-30T06:48:06.419Z",
+    "actor_name": "CAMPUSFLOW_AI_SLA_WATCHDOG",
+    "actor_type": "AI_AGENT",
+    "action": "AUTO_ESCALATE_SLA_BREACH",
+    "entity_type": "request",
+    "entity_id": "r0000000-0000-0000-0000-0000000000311",
+    "old_values": {
+      "status": "ASSIGNED",
+      "sla_status": "on_track"
+    },
+    "new_values": {
+      "status": "ESCALATED",
+      "sla_status": "breached"
+    },
+    "details": "SLA breached (209% elapsed). Autonomously escalated to Department Head."
+  },
+  {
+    "id": "de035d0a-4a04-4a51-8b19-f74469e0f4e2",
+    "created_at": "2026-09-30T06:48:05.259Z",
+    "updated_at": "2026-09-30T06:48:05.259Z",
+    "actor_name": "CAMPUSFLOW_AI_SLA_WATCHDOG",
+    "actor_type": "AI_AGENT",
+    "action": "AUTO_ESCALATE_SLA_BREACH",
+    "entity_type": "request",
+    "entity_id": "r0000000-0000-0000-0000-000000000036",
+    "old_values": {
+      "status": "IN_PROGRESS",
+      "sla_status": "on_track"
+    },
+    "new_values": {
+      "status": "ESCALATED",
+      "sla_status": "breached"
+    },
+    "details": "SLA breached (751% elapsed). Autonomously escalated to Department Head."
+  },
+  {
+    "id": "56aaefa8-44c2-427e-92a5-3109e26ee893",
+    "created_at": "2026-09-30T06:48:03.775Z",
+    "updated_at": "2026-09-30T06:48:03.775Z",
+    "actor_name": "CAMPUSFLOW_AI_SLA_WATCHDOG",
+    "actor_type": "AI_AGENT",
+    "action": "AUTO_ESCALATE_SLA_BREACH",
+    "entity_type": "request",
+    "entity_id": "r0000000-0000-0000-0000-000000000033",
+    "old_values": {
+      "status": "ASSIGNED",
+      "sla_status": "on_track"
+    },
+    "new_values": {
+      "status": "ESCALATED",
+      "sla_status": "breached"
+    },
+    "details": "SLA breached (275% elapsed). Autonomously escalated to Department Head."
+  },
+  {
+    "id": "1f8d653e-ce7f-46e3-94ef-a681eadb3e24",
+    "created_at": "2026-09-30T06:48:03.184Z",
+    "updated_at": "2026-09-30T06:48:03.184Z",
+    "actor_name": "CAMPUSFLOW_AI_SLA_WATCHDOG",
+    "actor_type": "AI_AGENT",
+    "action": "AUTO_ESCALATE_SLA_BREACH",
+    "entity_type": "request",
+    "entity_id": "r0000000-0000-0000-0000-000000000030",
+    "old_values": {
+      "status": "IN_PROGRESS",
+      "sla_status": "on_track"
+    },
+    "new_values": {
+      "status": "ESCALATED",
+      "sla_status": "breached"
+    },
+    "details": "SLA breached (3602% elapsed). Autonomously escalated to Department Head."
+  },
+  {
+    "id": "1d60df1d-05cb-4175-8b4b-f2b73d37d0e1",
+    "created_at": "2026-09-30T06:48:02.603Z",
+    "updated_at": "2026-09-30T06:48:02.603Z",
+    "actor_name": "CAMPUSFLOW_AI_SLA_WATCHDOG",
+    "actor_type": "AI_AGENT",
+    "action": "AUTO_ESCALATE_SLA_BREACH",
+    "entity_type": "request",
+    "entity_id": "r0000000-0000-0000-0000-000000000010",
+    "old_values": {
+      "status": "IN_PROGRESS",
+      "sla_status": "on_track"
+    },
+    "new_values": {
+      "status": "ESCALATED",
+      "sla_status": "breached"
+    },
+    "details": "SLA breached (102% elapsed). Autonomously escalated to Department Head."
+  },
+  {
+    "id": "a0000000-0000-0000-0000-000000000001",
+    "timestamp": "2026-09-30T06:11:08.027Z",
+    "actor_name": "CampusFlow AI Agent",
+    "actor_type": "AI_AGENT",
+    "action": "AI_CLASSIFIED_REQUEST",
+    "entity_type": "request",
+    "entity_id": "r0000000-0000-0000-0000-000000000001",
+    "details": "Classified REQ-1042 as HIGH Priority under IT Support (Audio/Visual) with 96% confidence."
+  },
+  {
+    "id": "a0000000-0000-0000-0000-000000000002",
+    "timestamp": "2026-09-30T06:12:08.027Z",
+    "actor_name": "CampusFlow Dispatcher Engine",
+    "actor_type": "AI_AGENT",
+    "action": "ASSIGNED_EMPLOYEE",
+    "entity_type": "request",
+    "entity_id": "r0000000-0000-0000-0000-000000000001",
+    "details": "Assigned Rahul Sharma (96% match score, 42% workload score)."
+  },
+  {
+    "id": "a0000000-0000-0000-0000-000000000003",
+    "timestamp": "2026-09-30T06:17:08.027Z",
+    "actor_name": "CampusFlow SLA Watchdog",
+    "actor_type": "AI_AGENT",
+    "action": "ESCALATED_SLA_BREACH",
+    "entity_type": "request",
+    "entity_id": "r0000000-0000-0000-0000-000000000020",
+    "details": "REQ-1015 exceeded resolution SLA limit. Autonomously escalated to Dr. Sunita Rao."
+  },
+  {
+    "id": "a0000000-0000-0000-0000-000000000004",
+    "timestamp": "2026-09-30T06:03:08.027Z",
+    "actor_name": "CampusFlow Cluster Engine",
+    "actor_type": "AI_AGENT",
+    "action": "MERGED_DUPLICATE_INCIDENTS",
+    "entity_type": "incident",
+    "entity_id": "inc0000-0000-0000-0000-000000000001",
+    "details": "Consolidated 8 concurrent student reports for Lab 3 AC breakdown into single Master Incident."
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "inc0000-0000-0000-0000-000000000001",
+    "title": "Master Incident: AC Breakdown & Water Leakage in Lab 3",
+    "category": "Facilities & Infrastructure",
+    "location": "Lab 3",
+    "status": "INVESTIGATING",
+    "root_cause": "Chilled water pipe insulation condensation leak causing electrical trip on Unit 2",
+    "merged_request_count": 8,
+    "primary_request_id": "r0000000-0000-0000-0000-000000000010",
+    "created_at": "2026-09-30T04:45:06.310Z"
+  }
+]

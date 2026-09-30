@@ -1,0 +1,185 @@
+[
+  {
+    "id": "u0000000-0000-0000-0000-000000000001",
+    "email": "admin@campusflow.ai",
+    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "full_name": "Dr. Vikram Patel",
+    "role": "admin",
+    "phone": "+91 98765 00001",
+    "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+    "status": "active"
+  },
+  {
+    "id": "u0000000-0000-0000-0000-000000000002",
+    "email": "hod.it@campusflow.ai",
+    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "full_name": "Dr. Sunita Rao",
+    "role": "department_head",
+    "department_id": "d0000000-0000-0000-0000-000000000001",
+    "phone": "+91 98765 00002",
+    "avatar_url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150",
+    "status": "active"
+  },
+  {
+    "id": "u0000000-0000-0000-0000-000000000003",
+    "email": "hod.maint@campusflow.ai",
+    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "full_name": "Er. Rajesh Kulkarni",
+    "role": "department_head",
+    "department_id": "d0000000-0000-0000-0000-000000000002",
+    "phone": "+91 98765 00003",
+    "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "status": "active"
+  },
+  {
+    "id": "u0000000-0000-0000-0000-000000000004",
+    "email": "faculty@campusflow.ai",
+    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "full_name": "Prof. Rajesh Nair",
+    "role": "faculty",
+    "department_id": "d0000000-0000-0000-0000-000000000004",
+    "phone": "+91 98765 00004",
+    "avatar_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "status": "active"
+  },
+  {
+    "id": "u0000000-0000-0000-0000-000000000010",
+    "email": "rahul.it@campusflow.ai",
+    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "full_name": "Rahul Sharma",
+    "role": "staff",
+    "department_id": "d0000000-0000-0000-0000-000000000001",
+    "phone": "+91 98765 10001",
+    "avatar_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150",
+    "status": "active"
+  },
+  {
+    "id": "u0000000-0000-0000-0000-000000000011",
+    "email": "amit.network@campusflow.ai",
+    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "full_name": "Amit Verma",
+    "role": "staff",
+    "department_id": "d0000000-0000-0000-0000-000000000001",
+    "phone": "+91 98765 10002",
+    "avatar_url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150",
+    "status": "active"
+  },
+  {
+    "id": "u0000000-0000-0000-0000-000000000012",
+    "email": "priya.hvac@campusflow.ai",
+    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "full_name": "Priya Singh",
+    "role": "staff",
+    "department_id": "d0000000-0000-0000-0000-000000000002",
+    "phone": "+91 98765 10003",
+    "avatar_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150",
+    "status": "active"
+  },
+  {
+    "id": "u0000000-0000-0000-0000-000000000013",
+    "email": "manoj.electric@campusflow.ai",
+    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "full_name": "Manoj Kumar",
+    "role": "staff",
+    "department_id": "d0000000-0000-0000-0000-000000000002",
+    "phone": "+91 98765 10004",
+    "avatar_url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150",
+    "status": "active"
+  },
+  {
+    "id": "u0000000-0000-0000-0000-000000000014",
+    "email": "dinesh.plumber@campusflow.ai",
+    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "full_name": "Dinesh Yadav",
+    "role": "staff",
+    "department_id": "d0000000-0000-0000-0000-000000000002",
+    "phone": "+91 98765 10005",
+    "avatar_url": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150",
+    "status": "active"
+  },
+  {
+    "id": "u0000000-0000-0000-0000-000000000015",
+    "email": "suresh.hostel@campusflow.ai",
+    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "full_name": "Suresh Menon",
+    "role": "staff",
+    "department_id": "d0000000-0000-0000-0000-000000000003",
+    "phone": "+91 98765 10006",
+    "avatar_url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+    "status": "active"
+  },
+  {
+    "id": "u0000000-0000-0000-0000-000000000016",
+    "email": "kavita.acad@campusflow.ai",
+    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "full_name": "Kavita Joshi",
+    "role": "staff",
+    "department_id": "d0000000-0000-0000-0000-000000000004",
+    "phone": "+91 98765 10007",
+    "avatar_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "status": "active"
+  },
+  {
+    "id": "u0000000-0000-0000-0000-000000000017",
+    "email": "anil.admin@campusflow.ai",
+    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "full_name": "Anil Saxena",
+    "role": "staff",
+    "department_id": "d0000000-0000-0000-0000-000000000005",
+    "phone": "+91 98765 10008",
+    "avatar_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150",
+    "status": "active"
+  },
+  {
+    "id": "u0000000-0000-0000-0000-000000000018",
+    "email": "neha.lib@campusflow.ai",
+    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "full_name": "Neha Roy",
+    "role": "staff",
+    "department_id": "d0000000-0000-0000-0000-000000000007",
+    "phone": "+91 98765 10009",
+    "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+    "status": "active"
+  },
+  {
+    "id": "u0000000-0000-0000-0000-000000000019",
+    "email": "harish.sec@campusflow.ai",
+    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "full_name": "Harish Chandra",
+    "role": "staff",
+    "department_id": "d0000000-0000-0000-0000-000000000009",
+    "phone": "+91 98765 10010",
+    "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "status": "active"
+  },
+  {
+    "id": "u0000000-0000-0000-0000-000000000020",
+    "email": "student@campusflow.ai",
+    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "full_name": "Aarav Mehta",
+    "role": "student",
+    "phone": "+91 98765 20001",
+    "avatar_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150",
+    "status": "active"
+  },
+  {
+    "id": "u0000000-0000-0000-0000-000000000021",
+    "email": "ananya.sen@campusflow.ai",
+    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "full_name": "Ananya Sen",
+    "role": "student",
+    "phone": "+91 98765 20002",
+    "avatar_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "status": "active"
+  },
+  {
+    "id": "u0000000-0000-0000-0000-000000000022",
+    "email": "rohan.deshmukh@campusflow.ai",
+    "password_hash": "$2a$10$OJK5oidNCZhhn1FB6fp9XuXC9fBGUY.PsD4UiAWgSiiQjpQwNxk7O",
+    "full_name": "Rohan Deshmukh",
+    "role": "student",
+    "phone": "+91 98765 20003",
+    "avatar_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "status": "active"
+  }
+]

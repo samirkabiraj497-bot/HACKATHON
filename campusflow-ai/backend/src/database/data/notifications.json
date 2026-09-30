@@ -1,0 +1,83 @@
+[
+  {
+    "id": "af5fe1ae-f33c-4986-a5c6-3748f9d12369",
+    "created_at": "2026-09-30T07:39:33.557Z",
+    "updated_at": "2026-09-30T07:39:33.557Z",
+    "user_id": "u0000000-0000-0000-0000-000000000020",
+    "title": "✅ Request Received & Autonomous Workflow Active: REQ-1096",
+    "message": "Your request \"The projector in classroom B204 isn't working and we have an important presentation tomorrow morning\" was analyzed and routed to IT Support with CRITICAL priority. SLA target: 2 hours.",
+    "type": "request_created",
+    "reference_id": "a7fb1f9d-c25b-431f-80a5-f7f3232c87c3",
+    "reference_type": "request",
+    "is_read": false
+  },
+  {
+    "id": "a5c2bd56-f2f0-4fb3-8e34-296f6db9b799",
+    "created_at": "2026-09-30T07:39:33.385Z",
+    "updated_at": "2026-09-30T07:39:33.385Z",
+    "user_id": "u0000000-0000-0000-0000-000000000010",
+    "title": "🎯 New Task Assigned: REQ-1096",
+    "message": "AI dispatched REQ-1096 (CRITICAL) to you based on 96% skill match. Location: Classroom B204.",
+    "type": "task_assigned",
+    "reference_id": "a7fb1f9d-c25b-431f-80a5-f7f3232c87c3",
+    "reference_type": "request",
+    "is_read": false
+  },
+  {
+    "id": "6477fd8a-3f4e-4f8d-9eba-7d7641a5023a",
+    "created_at": "2026-09-30T07:19:21.741Z",
+    "updated_at": "2026-09-30T07:19:21.741Z",
+    "user_id": "u0000000-0000-0000-0000-000000000020",
+    "title": "✅ Request Received & Autonomous Workflow Active: REQ-1092",
+    "message": "Your request \"The projector in classroom B204 isn't working and we have an important presentation tomorrow morning\" was analyzed and routed to IT Support with CRITICAL priority. SLA target: 2 hours.",
+    "type": "request_created",
+    "reference_id": "3f4efdc8-b22a-40b9-a00c-a7079963ee5b",
+    "reference_type": "request",
+    "is_read": false
+  },
+  {
+    "id": "b58b801a-6e27-4550-a0ca-ac6f037acdda",
+    "created_at": "2026-09-30T07:19:21.440Z",
+    "updated_at": "2026-09-30T07:19:21.440Z",
+    "user_id": "u0000000-0000-0000-0000-000000000010",
+    "title": "🎯 New Task Assigned: REQ-1092",
+    "message": "AI dispatched REQ-1092 (CRITICAL) to you based on 96% skill match. Location: Classroom B204.",
+    "type": "task_assigned",
+    "reference_id": "3f4efdc8-b22a-40b9-a00c-a7079963ee5b",
+    "reference_type": "request",
+    "is_read": false
+  },
+  {
+    "id": "n0000000-0000-0000-0000-000000000001",
+    "user_id": "u0000000-0000-0000-0000-000000000010",
+    "title": "🎯 New Task Assigned: Projector in B204",
+    "message": "AI assigned high-priority ticket REQ-1042 to you based on 96% AV skill match and current availability.",
+    "type": "task_assigned",
+    "reference_id": "r0000000-0000-0000-0000-000000000001",
+    "reference_type": "request",
+    "is_read": false,
+    "created_at": "2026-09-30T06:15:07.798Z"
+  },
+  {
+    "id": "n0000000-0000-0000-0000-000000000002",
+    "user_id": "u0000000-0000-0000-0000-000000000002",
+    "title": "🚨 SLA Escalation: Hostel Block B Wi-Fi Outage",
+    "message": "REQ-1015 has exceeded SLA threshold (3 hours). AI autonomously escalated this ticket to you for supervisory intervention.",
+    "type": "escalation_alert",
+    "reference_id": "r0000000-0000-0000-0000-000000000020",
+    "reference_type": "request",
+    "is_read": false,
+    "created_at": "2026-09-30T06:20:07.798Z"
+  },
+  {
+    "id": "n0000000-0000-0000-0000-000000000003",
+    "user_id": "u0000000-0000-0000-0000-000000000001",
+    "title": "🔍 AI Pattern Alert: Lab 3 HVAC Anomaly",
+    "message": "AI detected 8 concurrent reports for Lab 3 AC failure. Clustered into Master Incident #inc0000.",
+    "type": "duplicate_detected",
+    "reference_id": "inc0000-0000-0000-0000-000000000001",
+    "reference_type": "incident",
+    "is_read": false,
+    "created_at": "2026-09-30T06:05:07.798Z"
+  }
+]

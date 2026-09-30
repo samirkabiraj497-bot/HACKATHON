@@ -1,0 +1,34 @@
+[
+  {
+    "id": "f6464165-73d3-4a7c-b3c9-373a302670d0",
+    "created_at": "2026-09-30T07:39:33.202Z",
+    "updated_at": "2026-09-30T07:39:33.202Z",
+    "task_id": "6ab3e4ee-dc4a-42b6-934d-8029310fbb02",
+    "employee_id": "e0000000-0000-0000-0000-000000000001",
+    "assigned_by": "CAMPUSFLOW_AI_AGENT",
+    "match_score": 88,
+    "criteria_breakdown": {
+      "skillScore": 96,
+      "workloadScore": 58,
+      "availabilityScore": 100,
+      "ratingScore": 98.00000000000001,
+      "proximityScore": 100
+    }
+  },
+  {
+    "id": "1c7be08a-685c-4b53-95f2-b3120d2a058d",
+    "created_at": "2026-09-30T07:19:21.172Z",
+    "updated_at": "2026-09-30T07:19:21.172Z",
+    "task_id": "27310f9c-0813-4b2b-a922-e5defb3c0d16",
+    "employee_id": "e0000000-0000-0000-0000-000000000001",
+    "assigned_by": "CAMPUSFLOW_AI_AGENT",
+    "match_score": 88,
+    "criteria_breakdown": {
+      "skillScore": 96,
+      "workloadScore": 58,
+      "availabilityScore": 100,
+      "ratingScore": 98.00000000000001,
+      "proximityScore": 100
+    }
+  }
+]

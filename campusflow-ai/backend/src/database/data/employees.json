@@ -1,0 +1,187 @@
+[
+  {
+    "id": "e0000000-0000-0000-0000-000000000001",
+    "user_id": "u0000000-0000-0000-0000-000000000010",
+    "department_id": "d0000000-0000-0000-0000-000000000001",
+    "job_title": "Audio/Visual Specialist",
+    "skills": [
+      "projector",
+      "audio",
+      "mic",
+      "hdmi",
+      "screen",
+      "display",
+      "av",
+      "presentation"
+    ],
+    "workload_score": 42,
+    "is_available": true,
+    "rating": 4.9,
+    "max_concurrent_tasks": 5
+  },
+  {
+    "id": "e0000000-0000-0000-0000-000000000002",
+    "user_id": "u0000000-0000-0000-0000-000000000011",
+    "department_id": "d0000000-0000-0000-0000-000000000001",
+    "job_title": "Senior Network Engineer",
+    "skills": [
+      "wifi",
+      "network",
+      "router",
+      "switch",
+      "firewall",
+      "lan",
+      "internet"
+    ],
+    "workload_score": 65,
+    "is_available": true,
+    "rating": 4.8,
+    "max_concurrent_tasks": 5
+  },
+  {
+    "id": "e0000000-0000-0000-0000-000000000003",
+    "user_id": "u0000000-0000-0000-0000-000000000012",
+    "department_id": "d0000000-0000-0000-0000-000000000002",
+    "job_title": "Senior HVAC & Refrigeration Technician",
+    "skills": [
+      "ac",
+      "air conditioner",
+      "cooling",
+      "chiller",
+      "compressor",
+      "ventilation",
+      "thermostat"
+    ],
+    "workload_score": 55,
+    "is_available": true,
+    "rating": 4.9,
+    "max_concurrent_tasks": 6
+  },
+  {
+    "id": "e0000000-0000-0000-0000-000000000004",
+    "user_id": "u0000000-0000-0000-0000-000000000013",
+    "department_id": "d0000000-0000-0000-0000-000000000002",
+    "job_title": "Lead Electrician",
+    "skills": [
+      "electricity",
+      "wiring",
+      "socket",
+      "switch",
+      "generator",
+      "ups",
+      "lighting",
+      "power"
+    ],
+    "workload_score": 70,
+    "is_available": true,
+    "rating": 4.7,
+    "max_concurrent_tasks": 5
+  },
+  {
+    "id": "e0000000-0000-0000-0000-000000000005",
+    "user_id": "u0000000-0000-0000-0000-000000000014",
+    "department_id": "d0000000-0000-0000-0000-000000000002",
+    "job_title": "Master Plumber & Pipefitter",
+    "skills": [
+      "plumbing",
+      "pipe",
+      "leak",
+      "drain",
+      "water tank",
+      "pump",
+      "flush",
+      "toilet"
+    ],
+    "workload_score": 85,
+    "is_available": false,
+    "rating": 4.6,
+    "max_concurrent_tasks": 5
+  },
+  {
+    "id": "e0000000-0000-0000-0000-000000000006",
+    "user_id": "u0000000-0000-0000-0000-000000000015",
+    "department_id": "d0000000-0000-0000-0000-000000000003",
+    "job_title": "Hostel Maintenance Supervisor",
+    "skills": [
+      "hostel",
+      "room maintenance",
+      "furniture",
+      "almirah",
+      "geyser",
+      "dormitory"
+    ],
+    "workload_score": 60,
+    "is_available": true,
+    "rating": 4.5,
+    "max_concurrent_tasks": 8
+  },
+  {
+    "id": "e0000000-0000-0000-0000-000000000007",
+    "user_id": "u0000000-0000-0000-0000-000000000016",
+    "department_id": "d0000000-0000-0000-0000-000000000004",
+    "job_title": "Academic Coordinator",
+    "skills": [
+      "attendance",
+      "timetable",
+      "curriculum",
+      "advisor approval",
+      "leaves"
+    ],
+    "workload_score": 30,
+    "is_available": true,
+    "rating": 4.8,
+    "max_concurrent_tasks": 10
+  },
+  {
+    "id": "e0000000-0000-0000-0000-000000000008",
+    "user_id": "u0000000-0000-0000-0000-000000000017",
+    "department_id": "d0000000-0000-0000-0000-000000000005",
+    "job_title": "Administrative Officer",
+    "skills": [
+      "bonafide",
+      "certificate",
+      "fees",
+      "scholarship",
+      "clearance",
+      "id card"
+    ],
+    "workload_score": 45,
+    "is_available": true,
+    "rating": 4.7,
+    "max_concurrent_tasks": 10
+  },
+  {
+    "id": "e0000000-0000-0000-0000-000000000009",
+    "user_id": "u0000000-0000-0000-0000-000000000018",
+    "department_id": "d0000000-0000-0000-0000-000000000007",
+    "job_title": "Librarian & Cataloguer",
+    "skills": [
+      "library",
+      "books",
+      "journals",
+      "digital archive",
+      "fine waiver"
+    ],
+    "workload_score": 25,
+    "is_available": true,
+    "rating": 4.9,
+    "max_concurrent_tasks": 12
+  },
+  {
+    "id": "e0000000-0000-0000-0000-000000000010",
+    "user_id": "u0000000-0000-0000-0000-000000000019",
+    "department_id": "d0000000-0000-0000-0000-000000000009",
+    "job_title": "Security Watch Officer",
+    "skills": [
+      "security",
+      "cctv",
+      "parking",
+      "lost and found",
+      "gate pass"
+    ],
+    "workload_score": 35,
+    "is_available": true,
+    "rating": 4.6,
+    "max_concurrent_tasks": 6
+  }
+]

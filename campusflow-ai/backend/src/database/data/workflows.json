@@ -1,0 +1,33 @@
+[
+  {
+    "id": "w0000000-0000-0000-0000-000000000001",
+    "name": "Classroom & Academic Equipment Rapid Resolution",
+    "description": "Autonomous triaging, immediate technician dispatch, and 2-hour SLA tracking for teaching venues.",
+    "trigger_event": "EQUIPMENT_DEFECT_REPORTED",
+    "is_active": true,
+    "definition": {
+      "steps": [
+        "AI_CLASSIFY",
+        "ASSIGN_TECHNICIAN",
+        "NOTIFY_STAFF",
+        "MONITOR_SLA_80",
+        "ESCALATE_IF_BREACHED"
+      ]
+    }
+  },
+  {
+    "id": "w0000000-0000-0000-0000-000000000002",
+    "name": "Student Leave & On-Duty Advisor Approval Flow",
+    "description": "When leave duration > 3 days, route to Faculty Advisor. If unreviewed after 24h, escalate to HOD.",
+    "trigger_event": "LEAVE_REQUEST_SUBMITTED",
+    "is_active": true,
+    "definition": {
+      "steps": [
+        "AI_VALIDATE",
+        "ADVISOR_APPROVAL",
+        "ATTENDANCE_UPDATE",
+        "STUDENT_NOTIFY"
+      ]
+    }
+  }
+]

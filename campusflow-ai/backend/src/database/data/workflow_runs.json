@@ -1,0 +1,84 @@
+[
+  {
+    "id": "e98d9e2a-86eb-4330-b7fe-6dd1985c98a0",
+    "created_at": "2026-09-30T07:39:34.496Z",
+    "updated_at": "2026-09-30T07:39:34.496Z",
+    "workflow_id": "w0000000-0000-0000-0000-000000000001",
+    "request_id": "a7fb1f9d-c25b-431f-80a5-f7f3232c87c3",
+    "status": "ACTIVE",
+    "current_step": "MONITORING",
+    "logs": [
+      {
+        "step": "TRIGGER",
+        "message": "Workflow triggered for request #REQ-1096: \"The projector in classroom B204 isn't working and we have an important presentation tomorrow morning\"",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-30T07:39:34.496Z"
+      },
+      {
+        "step": "AI_CLASSIFICATION",
+        "message": "AI classified under IT Support with 94% confidence",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-30T07:39:34.496Z"
+      },
+      {
+        "step": "SLA_INITIALIZATION",
+        "message": "Computed SLA deadline based on priority CRITICAL",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-30T07:39:34.496Z"
+      },
+      {
+        "step": "ASSIGN",
+        "message": "Assigned to technician ID e0000000-0000-0000-0000-000000000001 via multi-factor matching score",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-30T07:39:34.496Z"
+      },
+      {
+        "step": "NOTIFICATION",
+        "message": "Notification dispatched to relevant stakeholders",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-30T07:39:34.496Z"
+      }
+    ]
+  },
+  {
+    "id": "2bfc3144-7ba1-42c9-8de5-c174ec69424a",
+    "created_at": "2026-09-30T07:19:23.378Z",
+    "updated_at": "2026-09-30T07:19:23.378Z",
+    "workflow_id": "w0000000-0000-0000-0000-000000000001",
+    "request_id": "3f4efdc8-b22a-40b9-a00c-a7079963ee5b",
+    "status": "ACTIVE",
+    "current_step": "MONITORING",
+    "logs": [
+      {
+        "step": "TRIGGER",
+        "message": "Workflow triggered for request #REQ-1092: \"The projector in classroom B204 isn't working and we have an important presentation tomorrow morning\"",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-30T07:19:23.377Z"
+      },
+      {
+        "step": "AI_CLASSIFICATION",
+        "message": "AI classified under IT Support with 94% confidence",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-30T07:19:23.377Z"
+      },
+      {
+        "step": "SLA_INITIALIZATION",
+        "message": "Computed SLA deadline based on priority CRITICAL",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-30T07:19:23.377Z"
+      },
+      {
+        "step": "ASSIGN",
+        "message": "Assigned to technician ID e0000000-0000-0000-0000-000000000001 via multi-factor matching score",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-30T07:19:23.377Z"
+      },
+      {
+        "step": "NOTIFICATION",
+        "message": "Notification dispatched to relevant stakeholders",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-30T07:19:23.377Z"
+      }
+    ]
+  }
+]

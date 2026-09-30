@@ -1,0 +1,42 @@
+[
+  {
+    "id": "s0000000-0000-0000-0000-000000000001",
+    "priority": "CRITICAL",
+    "response_time_minutes": 30,
+    "resolution_time_minutes": 120,
+    "warning_threshold_pct": 80,
+    "escalation_level_1_minutes": 30,
+    "escalation_level_2_minutes": 60,
+    "is_active": true
+  },
+  {
+    "id": "s0000000-0000-0000-0000-000000000002",
+    "priority": "HIGH",
+    "response_time_minutes": 120,
+    "resolution_time_minutes": 480,
+    "warning_threshold_pct": 80,
+    "escalation_level_1_minutes": 60,
+    "escalation_level_2_minutes": 180,
+    "is_active": true
+  },
+  {
+    "id": "s0000000-0000-0000-0000-000000000003",
+    "priority": "MEDIUM",
+    "response_time_minutes": 480,
+    "resolution_time_minutes": 1440,
+    "warning_threshold_pct": 80,
+    "escalation_level_1_minutes": 240,
+    "escalation_level_2_minutes": 720,
+    "is_active": true
+  },
+  {
+    "id": "s0000000-0000-0000-0000-000000000004",
+    "priority": "LOW",
+    "response_time_minutes": 1440,
+    "resolution_time_minutes": 4320,
+    "warning_threshold_pct": 80,
+    "escalation_level_1_minutes": 720,
+    "escalation_level_2_minutes": 1440,
+    "is_active": true
+  }
+]

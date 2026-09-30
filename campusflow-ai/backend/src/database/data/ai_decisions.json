@@ -1,0 +1,44 @@
+[
+  {
+    "id": "21bfba83-6174-43a2-bb99-c292f9228a07",
+    "created_at": "2026-09-30T07:39:33.738Z",
+    "updated_at": "2026-09-30T07:39:33.738Z",
+    "request_id": "a7fb1f9d-c25b-431f-80a5-f7f3232c87c3",
+    "decision_type": "INTAKE_TRIAGE_AND_DISPATCH",
+    "input_payload": {
+      "title": "The projector in classroom B204 isn't working and we have an important presentation tomorrow morning",
+      "description": "Ceiling projector red lamp blinking error.",
+      "location": "Classroom B204"
+    },
+    "output_payload": {
+      "category": "IT & Digital Infrastructure",
+      "department": "IT Support",
+      "priority": "CRITICAL",
+      "assignee": "Rahul Sharma"
+    },
+    "confidence": 0.94,
+    "reasoning": "Marked HIGH because the issue directly affects an upcoming deadline (presentation tomorrow).",
+    "model_used": "gemini-2.0-flash"
+  },
+  {
+    "id": "9072334a-009f-4ac9-9831-9c1d135c29c5",
+    "created_at": "2026-09-30T07:19:21.990Z",
+    "updated_at": "2026-09-30T07:19:21.990Z",
+    "request_id": "3f4efdc8-b22a-40b9-a00c-a7079963ee5b",
+    "decision_type": "INTAKE_TRIAGE_AND_DISPATCH",
+    "input_payload": {
+      "title": "The projector in classroom B204 isn't working and we have an important presentation tomorrow morning",
+      "description": "Ceiling projector red lamp blinking error.",
+      "location": "Classroom B204"
+    },
+    "output_payload": {
+      "category": "IT & Digital Infrastructure",
+      "department": "IT Support",
+      "priority": "CRITICAL",
+      "assignee": "Rahul Sharma"
+    },
+    "confidence": 0.94,
+    "reasoning": "Marked HIGH because the issue directly affects an upcoming deadline (presentation tomorrow).",
+    "model_used": "gemini-2.0-flash"
+  }
+]
